@@ -4,7 +4,7 @@
 // A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the
 // customer that has the maximum wealth.
 
-package Easy;
+package Easy.Q11to20;
 public class Q17_RichestCustomerWealth {
     public int maximumWealth(int[][] accounts) {
         int sum=0, max=0;

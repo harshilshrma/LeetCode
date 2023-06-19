@@ -2,7 +2,7 @@
 // Q13: Given an array of integers nums, return the number of good pairs.
 // A pair (i, j) is called good if nums[i] == nums[j] and i < j.
 
-package Easy;
+package Easy.Q11to20;
 public class Q13_NumberOfGoodPairs {
     public int numIdenticalPairs(int[] nums) {
         int count=0;

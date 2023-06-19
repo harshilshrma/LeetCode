@@ -4,7 +4,7 @@
 // Return the answer in an array.
 
 // My Solution: 17ms
-package Easy;
+package Easy.Q11to20;
 public class Q11_NumbersSmallerThanCurrentNumber {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] ans = new int[nums.length];

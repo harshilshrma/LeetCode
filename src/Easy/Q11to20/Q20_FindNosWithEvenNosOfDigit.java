@@ -2,7 +2,7 @@
 // Q20: Given an array nums of integers, return how many of them contain an even number of digits.
 
 
-package Easy;
+package Easy.Q11to20;
 public class Q20_FindNosWithEvenNosOfDigit {
     public int findNumbers(int[] nums){
         int sum=0, count=0;

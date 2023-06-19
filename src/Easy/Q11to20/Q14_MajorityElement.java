@@ -3,7 +3,7 @@
 // The majority element is the element that appears more than ⌊n / 2⌋ times.
 // You may assume that the majority element always exists in the array.
 
-package Easy;
+package Easy.Q11to20;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

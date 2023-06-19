@@ -4,7 +4,7 @@
 // secondary diagonal that are not part of the primary diagonal.
 
 // My Solution: 1ms
-package Easy;
+package Easy.Q11to20;
 public class Q15_MatrixDiagonalSum {
     public int diagonalSum(int[][] mat) {
         int sum=0;
