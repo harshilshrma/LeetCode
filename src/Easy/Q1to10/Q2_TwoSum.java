@@ -1,6 +1,6 @@
 // Date: 26 February 2023
 
-package Easy;
+package Easy.Q1to10;
 
 import java.util.HashMap;
 import java.util.Map;

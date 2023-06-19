@@ -10,7 +10,7 @@
 // Return the array answer.
 
 // My Solution: 32ms Runtime
-package Easy;
+package Easy.Q1to10;
 public class Q9_LeftAndRightSumDifferences {
     public int[] leftRigthDifference(int[] nums) {
         int[] answer = new int[nums.length];

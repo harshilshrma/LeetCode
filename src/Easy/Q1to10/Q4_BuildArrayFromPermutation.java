@@ -8,7 +8,7 @@
 
 
 // My Solution - O(n)
-package Easy;
+package Easy.Q1to10;
 public class Q4_BuildArrayFromPermutation {
     public int[] buildArray(int[] nums) {
         int[] ans = new int[nums.length];
