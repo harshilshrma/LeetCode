@@ -3,7 +3,7 @@
 // An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
 // typically using all the original letters exactly once.
 
-package Easy;
+package Easy.Q21to30;
 
 import java.util.Arrays;
 public class Q24_ValidAnagram {

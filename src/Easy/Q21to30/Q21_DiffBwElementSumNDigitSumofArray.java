@@ -6,7 +6,7 @@
 // Note that the absolute difference between two integers x and y is defined as |x - y|.
 
 
-package Easy;
+package Easy.Q21to30;
 public class Q21_DiffBwElementSumNDigitSumofArray {
     public int differenceOfSum(int[] nums) {
         int elesum=0, digsum=0, a, rem;
