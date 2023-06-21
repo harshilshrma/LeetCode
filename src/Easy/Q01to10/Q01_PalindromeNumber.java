@@ -2,7 +2,7 @@
 // Q1: Given an integer x, return true if x is a palindrome, and false otherwise.
 
 package Easy.Q01to10;
-public class Q1_PalindromeNumber {
+public class Q01_PalindromeNumber {
     public boolean isPalindrome(int x) {
         int original, reversed=0, rem;
         original = x;
