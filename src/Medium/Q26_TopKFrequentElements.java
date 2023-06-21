@@ -11,7 +11,7 @@ public class Q26_TopKFrequentElements {
 
         // Creating a HashMap to store the array in key-value pair
         HashMap<Integer, Integer> map = new HashMap<>();
-        for (int num : nums) {  //{1, 2, 3, 4}
+        for (int num : nums) {
             if (!map.containsKey(num)) {
                 map.put(num, count);
             }
