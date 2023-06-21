@@ -6,7 +6,7 @@
 // return the final value of X after performing all the operations.
 
 package Easy.Q01to10;
-public class Q7_FinalValueofVariableAfterPerformingOperations {
+public class Q07_FinalValueOfVariableAfterPerformingOperations {
     public int finalValueAfterOperations(String[] operations) {
         int total=0;  //Initializing a variable with value=0
         for (String s: operations){

@@ -5,7 +5,7 @@ package Easy.Q01to10;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Q2_TwoSum {
+public class Q02_TwoSum {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();   //Creating a HashMap with the name 'map'.
         for (int i=0; i <nums.length; i++){

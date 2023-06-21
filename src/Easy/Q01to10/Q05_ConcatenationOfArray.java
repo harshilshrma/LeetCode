@@ -6,7 +6,7 @@
 // Return the array ans.
 
 package Easy.Q01to10;
-public class Q5_ConcatenationOfArray {
+public class Q05_ConcatenationOfArray {
     public int[] getConcatenation(int[] nums) {
         int[] ans = new int[nums.length+ nums.length];
         int n = nums.length;

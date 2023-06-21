@@ -6,7 +6,7 @@
 // Return the array ans. Answers within 10-5 of the actual answer will be accepted.
 
 package Easy.Q01to10;
-public class Q6_ConvertTheTemperature {
+public class Q06_ConvertTheTemperature {
     public double[] convertTemperature(double celsius) {
         double k = celsius +273.15;
         double f = celsius*1.8 +32;
