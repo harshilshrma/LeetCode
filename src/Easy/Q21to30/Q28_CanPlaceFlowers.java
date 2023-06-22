@@ -9,4 +9,5 @@ package Easy.Q21to30;
 
 public class Q28_CanPlaceFlowers {
 
+
 }
