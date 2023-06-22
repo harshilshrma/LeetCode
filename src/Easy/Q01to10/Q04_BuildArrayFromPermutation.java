@@ -9,7 +9,7 @@
 
 // My Solution - O(n)
 package Easy.Q01to10;
-public class Q4_BuildArrayFromPermutation {
+public class Q04_BuildArrayFromPermutation {
     public int[] buildArray(int[] nums) {
         int[] ans = new int[nums.length];
         for (int i=0; i< nums.length; i++){

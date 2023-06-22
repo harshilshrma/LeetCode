@@ -11,7 +11,7 @@
 
 // My Solution: 32ms Runtime
 package Easy.Q01to10;
-public class Q9_LeftAndRightSumDifferences {
+public class Q09_LeftAndRightSumDifferences {
     public int[] leftRigthDifference(int[] nums) {
         int[] answer = new int[nums.length];
         int[] leftSum = new int[nums.length];
