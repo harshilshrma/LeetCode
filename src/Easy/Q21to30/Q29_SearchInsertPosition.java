@@ -5,24 +5,29 @@
 
 package Easy.Q21to30;
 
-import java.util.*;
 public class Q29_SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
-
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i = 1; i < nums.length; i++) {
-            if (!map.containsKey(i)) {
-                map.put(i, i);
+        int a = 0;
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] == target){
+                a = i;
+                break;
             }
-
+            else if (nums[i] > target)
+            {
+                a = i;
+                break;
+            } else {
+                a = nums.length;
+            }
         }
-        return 5;
+        return a;
     }
 
     public static void main(String[] args) {
         Q29_SearchInsertPosition obj1 = new Q29_SearchInsertPosition();
         int[] nums = {1, 3, 5, 6};
-        int target = 5;
-        obj1.searchInsert(nums, target);
+        int target = 2;
+        System.out.println(obj1.searchInsert(nums, target));
     }
 }
