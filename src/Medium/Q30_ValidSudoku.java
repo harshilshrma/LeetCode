@@ -62,7 +62,7 @@ public class Q30_ValidSudoku {
                 // (0, 0, board), (0, 3, board) and (0, 6, board)
                 // (3, 0, board), (3, 3, board) and (3, 6, board)
                 // (6, 0, board), (6, 3, board) and (6, 6, board)
-                // By these arguments, it will iterate through each 3x3 block
+                // By these arguments, it will iterate through all the 9 3x3 blocks
 
                 // If any one of the 3x3 block is invalid, we will return false
                 if (!checkBlock(i, j, board)) {
@@ -100,7 +100,7 @@ public class Q30_ValidSudoku {
             }
         }
 
-        // The function return true if all the entries are unique
+        // The function returns true if all the entries are unique
         return true;
     }
 
