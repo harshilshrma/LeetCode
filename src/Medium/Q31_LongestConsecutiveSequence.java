@@ -4,14 +4,29 @@
 
 package Medium;
 
+import java.util.HashSet;
+
 public class Q31_LongestConsecutiveSequence {
     public int longestConsecutive(int[] nums) {
+        if (nums.length == 0) return 0;
 
-
-
-        return 8;
+        int a = 1;
+        HashSet<Integer> set = new HashSet<>();
+        for (int n : nums) set.add(n);
+        for (int n : nums) {
+            if (!set.contains(n-1)) {
+                int count = 1;
+                while (set.contains(n+1)) {
+                    n++;
+                    count++;
+                };
+                a = Math.max(count, a);
+            }
+        }
+        return a;
     }
 
+    // Main function for testing
     public static void main(String[] args) {
         Q31_LongestConsecutiveSequence obj1 = new Q31_LongestConsecutiveSequence();
         int[] arr1 = {100, 4, 200, 1, 3, 2};
