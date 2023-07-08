@@ -22,6 +22,8 @@ public class Q32_ValidPalindrome {
         }
         String originalStr = joinedStr.toString();
         String reversedStr = joinedStr.reverse().toString();
+        System.out.println(originalStr);
+        System.out.println(reversedStr);
 
         return originalStr.equals(reversedStr);
     }
@@ -29,7 +31,7 @@ public class Q32_ValidPalindrome {
     // Main function for testing
     public static void main(String[] args) {
         Q32_ValidPalindrome obj1 = new Q32_ValidPalindrome();
-        String sampleString = " ";
+        String sampleString = "A man, a plan, a canal: Panama";
         System.out.println(obj1.isPalindrome(sampleString));
     }
 }
