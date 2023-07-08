@@ -8,8 +8,6 @@ package Easy.Q31to40;
 
 public class Q32_ValidPalindrome {
     public boolean isPalindrome(String str) {
-        if (str.length() == 0 || str.length() == 1) return true;
-
         String a = str.toLowerCase();
         StringBuilder joinedStr = new StringBuilder();
         for (int i = 0; i < a.length(); i++) {
@@ -22,21 +20,16 @@ public class Q32_ValidPalindrome {
                 }
             }
         }
+        String originalStr = joinedStr.toString();
+        String reversedStr = joinedStr.reverse().toString();
 
-//        String originalStr = joinedStr.toString();
-//        String reversedStr = joinedStr.reverse().toString();
-
-        System.out.println(joinedStr);
-        StringBuilder reversedString = new StringBuilder(joinedStr);
-        reversedString.reverse();
-        System.out.println(reversedString);
-
-        return joinedStr.toString().equals(reversedString.toString());
+        return originalStr.equals(reversedStr);
     }
 
+    // Main function for testing
     public static void main(String[] args) {
         Q32_ValidPalindrome obj1 = new Q32_ValidPalindrome();
-        String sampleString = "32apa32";
+        String sampleString = " ";
         System.out.println(obj1.isPalindrome(sampleString));
     }
 }
