@@ -6,6 +6,7 @@
 
 package Easy.Q31to40;
 
+// My Approach
 public class Q32_ValidPalindrome {
     public boolean isPalindrome(String str) {
         String a = str.toLowerCase();
@@ -22,10 +23,45 @@ public class Q32_ValidPalindrome {
         }
         String originalStr = joinedStr.toString();
         String reversedStr = joinedStr.reverse().toString();
-        System.out.println(originalStr);
-        System.out.println(reversedStr);
+//        System.out.println(originalStr);
+//        System.out.println(reversedStr);
 
         return originalStr.equals(reversedStr);
+    }
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    // Two Pointer Approach
+
+    // Didn't use this class because in-built methods of Character Class already exist
+    public boolean isAlphaNumeric(Character c) {
+        return ( ((int)'A' <= (int)c && (int)c <= (int)'Z') ||
+                 ((int)'a' <= (int)c && (int)c <= (int)'z') ||
+                 ((int)'0' <= (int)c && (int)c <= (int)'9')
+        );
+    }
+
+    public boolean isPalindrome_TwoPointerMethod(String str) {
+        int l = 0, r = str.length()-1;
+
+        while (l < r) {
+            Character start = str.charAt(l);
+            Character end = str.charAt(r);
+            if (!Character.isLetterOrDigit(start)) {
+                l++;
+                continue;
+            }
+            if (!Character.isLetterOrDigit(end)) {
+                r--;
+                continue;
+            }
+            if (Character.toLowerCase(start) != Character.toLowerCase(end)) {
+                return false;
+            }
+            l++;
+            r--;
+        }
+        return true;
     }
 
     // Main function for testing
@@ -33,5 +69,6 @@ public class Q32_ValidPalindrome {
         Q32_ValidPalindrome obj1 = new Q32_ValidPalindrome();
         String sampleString = "A man, a plan, a canal: Panama";
         System.out.println(obj1.isPalindrome(sampleString));
+        System.out.println(obj1.isPalindrome_TwoPointerMethod(sampleString));
     }
 }
