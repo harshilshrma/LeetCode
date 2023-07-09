@@ -25,7 +25,6 @@ public class Q32_ValidPalindrome {
         String reversedStr = joinedStr.reverse().toString();
 //        System.out.println(originalStr);
 //        System.out.println(reversedStr);
-
         return originalStr.equals(reversedStr);
     }
 
