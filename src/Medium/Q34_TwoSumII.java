@@ -7,5 +7,32 @@
 
 package Medium;
 
+import java.util.Arrays;
+
 public class Q34_TwoSumII {
+    public int[] twoSum(int[] numbers, int target) {
+        // Since the array is already sorted, we will just check through the array with 2 pointers
+        int l = 0;
+        int r = numbers.length - 1;
+        while (l < r) {
+            int sum = numbers[l] + numbers[r];
+            if (sum == target) {
+                return new int[] {l+1, r+1};
+            } else if (sum <= target) {
+                l++;
+            }
+            else {
+                r--;
+            }
+        }
+        return new int[]{0};
+    }
+
+    // Main function for testing
+    public static void main(String[] args) {
+        Q34_TwoSumII obj = new Q34_TwoSumII();
+        int[] arr = {2, 7, 11, 15};
+        int target = 9;
+        System.out.println(Arrays.toString(obj.twoSum(arr, target)));
+    }
 }
