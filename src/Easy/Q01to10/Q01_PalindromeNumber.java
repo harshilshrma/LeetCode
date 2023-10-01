@@ -3,6 +3,8 @@
 
 package Easy.Q01to10;
 public class Q01_PalindromeNumber {
+
+    // My solution - 9ms
     public boolean isPalindrome(int x) {
         int original, reversed=0, rem;
         original = x;
@@ -14,11 +16,25 @@ public class Q01_PalindromeNumber {
             reversed = reversed*10 + rem;
             x /= 10;
         }
-        if (reversed == original){
-            return true;
+        return reversed == original;
+    }
+
+    // Better solution - 4ms
+    public boolean isPalindrome4ms(int x) {
+        if (x < 0) return false;
+
+        int reversed = 0;
+        int val = x;
+        while (val > 0) {
+            reversed = reversed * 10 + (val % 10);
+            val /= 10;
         }
-        else{
-            return false;
-        }
+
+        return reversed == x;
+    }
+
+    public static void main(String[] args) {
+        Q01_PalindromeNumber obj1 = new Q01_PalindromeNumber();
+        System.out.println(obj1.isPalindrome(1234554321));
     }
 }
