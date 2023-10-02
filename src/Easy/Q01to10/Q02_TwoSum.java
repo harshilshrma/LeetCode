@@ -14,7 +14,7 @@ public class Q02_TwoSum {
         Map<Integer, Integer> map = new HashMap<>();   //Creating a HashMap with the name 'map'.
         for (int i=0; i <nums.length; i++){
             int diff = target - nums[i];
-            if (map.containsKey(diff)) {
+            if (map.containsKey(diff)) {        //Checking for the remaining value, if it is present in the map alr
                 return new int[] { map.get(diff), i};
             }
             map.put(nums[i], i);  //In this HashMap, the key is an element of nums and the value is its index.
@@ -25,7 +25,7 @@ public class Q02_TwoSum {
     public static void main(String[] args) {
         Q02_TwoSum obj1 = new Q02_TwoSum();
         int[] arr = {1, 2, 3, 4, 5};
-        int target = 10;
+        int target = 9;
         System.out.println(Arrays.toString(obj1.twoSum(arr, target)));
 
     }
