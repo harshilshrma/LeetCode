@@ -1,4 +1,7 @@
 // Date: 26 February 2023
+// Q02: Given an array of integers nums and an integer target, return indices of the two numbers such that
+// they add up to target. You may assume that each input would have exactly one solution, and you may not use
+// the same element twice. You can return the answer in any order.
 
 package Easy.Q01to10;
 
@@ -22,8 +25,9 @@ public class Q02_TwoSum {
     public static void main(String[] args) {
         Q02_TwoSum obj1 = new Q02_TwoSum();
         int[] arr = {1, 2, 3, 4, 5};
-        int target = 7;
+        int target = 10;
         System.out.println(Arrays.toString(obj1.twoSum(arr, target)));
+
     }
 }
 
