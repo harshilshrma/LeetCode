@@ -8,10 +8,10 @@
 package Easy.Q01to10;
 public class Q05_ConcatenationOfArray {
     public int[] getConcatenation(int[] nums) {
-        int[] ans = new int[nums.length+ nums.length];
         int n = nums.length;
-        System.arraycopy(nums, 0, ans, 0, n);
-        System.arraycopy(nums, 0, ans, n, n);
+        int[] ans = new int[2*n];
+        System.arraycopy(nums, 0, ans, 0, n); //Copying from start to half (n length)
+        System.arraycopy(nums, 0, ans, n, n);        //Copying from half to end (n length)
         return ans;
     }
 }
@@ -21,4 +21,4 @@ public class Q05_ConcatenationOfArray {
 //    2. srcPos is the index from which copying starts.
 //    3. dest denotes the destination array
 //    4. destPos is the index from which the copied elements are placed in the destination array.
-//    5. length is the length of the subarray to be copied.
+//    5. length is the length of the sub-array to be copied.
