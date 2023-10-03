@@ -8,7 +8,7 @@
 package Easy.Q01to10;
 public class Q07_FinalValueOfVariableAfterPerformingOperations {
     public int finalValueAfterOperations(String[] operations) {
-        int total=0;  //Initializing a variable with value=0
+        int total = 0;  //Initializing a variable with value=0
         for (String s: operations){
             //Now, since in all the 4 operations (X++, ++X, --X, X--),
             //The second character [charAt(1)] will always be the operation that needs to be performed.
@@ -22,6 +22,12 @@ public class Q07_FinalValueOfVariableAfterPerformingOperations {
             else total--;
         }
         return total;
+    }
+
+    public static void main(String[] args) {
+        Q07_FinalValueOfVariableAfterPerformingOperations obj1 = new Q07_FinalValueOfVariableAfterPerformingOperations();
+        String[] arr1 = {"--X","X++"};
+        System.out.println(obj1.finalValueAfterOperations(arr1));
     }
 }
 
