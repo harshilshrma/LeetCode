@@ -11,6 +11,8 @@
 
 // My Solution: 32ms Runtime
 package Easy.Q01to10;
+
+// My solution: 32ms
 public class Q09_LeftAndRightSumDifferences {
     public int[] leftRigthDifference(int[] nums) {
         int[] answer = new int[nums.length];
@@ -46,32 +48,34 @@ public class Q09_LeftAndRightSumDifferences {
     }
 }
 
-// Better Solution: 1ms Runtime
+// Better Solution: 2ms Runtime
 class abc {
-    public int[] leftRightDifference(int[] nums) {
+    public static int[] leftRightDifference(int[] nums) {
         int n = nums.length;
+        int[] result = new int[n];
 
-        int [] right = new int[n];
-        int [] left =  new int[n];
-        int [] ans = new int[n];
+        int[] leftSum = new int[n];
+        int[] rightSum = new int[n];
 
+        // Calculate leftSum for each index
         int sum = 0;
-        for(int i = 0; i < n; i++){
-            sum+=nums[i];
-            left[i]=sum;
-        }
-        sum = 0;
-        for(int i = n-1; i >=0; i--){
-            sum+=nums[i];
-            right[i]=sum;
+        for (int i = 0; i < n; i++) {
+            leftSum[i] = sum;
+            sum += nums[i];
         }
 
-        for(int i = 1; i < n-1; i++){
-            ans[i] = Math.abs(right[i+1] - left[i-1]);
+        // Calculate rightSum for each index
+        sum = 0;
+        for (int i = n - 1; i >= 0; i--) {
+            rightSum[i] = sum;
+            sum += nums[i];
         }
-        if(n > 1)
-            ans[n-1] = left[n-2];
-        if(n > 1) ans[0] = right[1];
-        return ans;
+
+        // Calculate the absolute difference for each index
+        for (int i = 0; i < n; i++) {
+            result[i] = Math.abs(leftSum[i] - rightSum[i]);
+        }
+
+        return result;
     }
 }
