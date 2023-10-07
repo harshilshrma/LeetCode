@@ -3,8 +3,9 @@
 // That is, for each nums[i] you have to count the number of valid j's such that j != i and nums[j] < nums[i].
 // Return the answer in an array.
 
-// My Solution: 17ms
 package Easy.Q11to20;
+
+// My Solution: 17ms
 public class Q11_NumbersSmallerThanCurrentNumber {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] ans = new int[nums.length];
@@ -21,6 +22,7 @@ public class Q11_NumbersSmallerThanCurrentNumber {
         return ans;
     }
 }
+
 
 // Other Solution: 1ms
 class abcd {
