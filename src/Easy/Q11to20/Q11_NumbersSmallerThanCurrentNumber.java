@@ -23,7 +23,6 @@ public class Q11_NumbersSmallerThanCurrentNumber {
     }
 }
 
-
 // Other Solution: 1ms
 class abcd {
     public int[] smallerNumbersThanCurrent(int[] nums) {
