@@ -41,3 +41,38 @@ class abcd {
     }
 }
 
+/* Detailed Explanation
+nums = [8, 1, 2, 2, 3]
+Explanation:
+Initialize two arrays, ans and cnt. ans will store the final result, and cnt is an array used to count the frequency of
+each value in the input array. The cnt array has a size of 101, which is given in the question.
+
+Loop through the input array nums and update the cnt array to count the frequency of each value.
+In this example:
+cnt[1] becomes 1 because there's one occurrence of the value 1.
+cnt[2] becomes 2 because there are two occurrences of the value 2.
+cnt[3] becomes 1 because there's one occurrence of the value 3.
+cnt[8] becomes 1 because there's one occurrence of the value 8.
+
+Calculate cumulative counts in the cnt array. This step makes each element at index i represent the count of elements
+smaller than or equal to i. So, after this step, cnt will look like this:
+cnt[0] = 0
+cnt[1] = 1
+cnt[2] = 3
+cnt[3] = 4
+cnt[4] = 4 (since no value in nums is 4, cnt[4] remains the same)
+
+Finally, loop through the input array nums again and calculate the values to be stored in the ans array.
+For each element at index i, you check its value nums[i], and if it's 0, you set ans[i]
+to 0 (since there are no smaller values).
+Otherwise, you set ans[i] to cnt[nums[i] - 1], which gives the count of smaller values.
+
+ans[0] = cnt[7] = 4
+ans[1] = cnt[0] = 0
+ans[2] = cnt[1] = 1
+ans[3] = cnt[1] = 1
+ans[4] = cnt[2] = 3
+
+Output:
+ans = [4, 0, 1, 1, 3]
+*/
