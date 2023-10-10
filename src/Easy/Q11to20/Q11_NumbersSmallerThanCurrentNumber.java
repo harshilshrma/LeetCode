@@ -28,12 +28,10 @@ class abcd {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] ans = new int[nums.length];
         int[] cnt = new int[101];  // based on the range of value stored in nums array.
-        for(int i=0; i<nums.length; i++)
-            cnt[nums[i]]++;    // will store the frequency of occurence of each value.
-        for(int i=1; i<101; i++)
-            cnt[i] += cnt[i-1];  // at index i, it will give how many values are smaller than cnt[i]
-        for(int i=0; i<nums.length; i++)
-        {
+        for(int i=0; i<nums.length; i++) cnt[nums[i]]++; // will store the frequency of occurence of each value.
+        for(int i=1; i<101; i++) cnt[i] += cnt[i-1]; //This is cumulative sum
+        // at index i, it will give how many values are smaller than cnt[i]
+        for(int i=0; i<nums.length; i++) {
             if(nums[i]==0)
                 ans[i]=0;
             else
