@@ -5,17 +5,18 @@
 package Medium;
 public class Q16_ReverseInteger {
     public int reverse(int x) {
-        long reverse=0, rem, original, a, max=2147483647, min=-2147483648;
-        while (x!=0){
-            rem = x%10;
-            reverse = reverse*10 + rem;
-            x/=10;
+        int temp;
+        long reverse = 0;
+
+        while(x!=0){
+            temp = x % 10;
+            reverse = reverse * 10 + temp;
+            x = x/10;
         }
-        if(reverse > max || reverse < min){
-            reverse =0;
-        }
-        if (x<0) return (int)-reverse;
-        else return (int)reverse;
+        if(reverse >= Integer.MIN_VALUE && reverse <= Integer.MAX_VALUE)
+            return (int)reverse;
+        else
+            return 0;
     }
 }
 
