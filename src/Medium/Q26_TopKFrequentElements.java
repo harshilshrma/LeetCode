@@ -62,7 +62,7 @@ public class Q26_TopKFrequentElements {
     public static void main(String[] args) {
         Q26_TopKFrequentElements obj1 = new Q26_TopKFrequentElements();
         int k = 3;
-        int[] num = new int[]{1, 1, 2, 3, 4, 4};
-        obj1.topKFrequent(num, k);
+        int[] num = new int[]{1, 5, 2, 3, 4, 6};
+        System.out.println(Arrays.toString(obj1.topKFrequent(num, k)));
     }
 }
