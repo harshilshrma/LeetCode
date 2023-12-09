@@ -8,16 +8,40 @@
 package Medium;
 
 public class Q36_ContainerWithMostWater {
-    public int maxArea(int[] height) {
+    public int maxAreaByBruteForce(int[] height) {
+        // BRUTE FORCE
+        int max = 0;
+        for (int i = 0; i < height.length; i++) {
+            for (int j = i + 1; j < height.length; j++) {
+                int water = (j - i) * Math.min(height[i], height[j]);
+                max = Math.max(max, water);
+            }
+        }
+        return max;
+    }
 
+    // By Two Pointers Method
+    public int maxAreaByTwoPointers(int[] height) {
+        int l = 0;
+        int r = height.length - 1;
+        int max = 0;
 
+        while (l < r) {
+            int water = (r - l) * Math.min(height[r], height[l]);
+            max = Math.max(max, water);
 
-        return 0;
+            if (height[l] < height[r]) l++;
+            else r--;
+        }
+        return max;
     }
 
     // Main function for testing
     public static void main(String[] args) {
-
+        Q36_ContainerWithMostWater obj1 = new Q36_ContainerWithMostWater();
+        int[] arr = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+        int[] arr2 = {1, 2};
+        int[] arr3 = {2, 3, 10, 5, 7, 8, 9};
+        System.out.println(obj1.maxAreaByTwoPointers(arr));
     }
-
 }
