@@ -7,22 +7,26 @@ package Easy.Q31to40;
 
 public class Q38_BinarySearch {
     public int search(int[] nums, int target) {
-        int low = 0;
-        int high = nums.length - 1;
-        int mid = (low + high) / 2;
+        int l = 0;
+        int r = nums.length - 1;
 
-        if (nums) {
-
+        while (l <= r) {
+            int m = l + ((r - l) / 2);
+            if (nums[m] > target) {
+                r = m - 1;
+            } else if (nums[m] < target) {
+                l = m + 1;
+            } else {
+                return m;
+            }
         }
-
-
         return -1;
     }
 
     public static void main(String[] args) {
         Q38_BinarySearch obj = new Q38_BinarySearch();
         int[] nums = {-1,0,3,5,9,12};
-        int target = 9;
+        int target = 12;
         System.out.println(obj.search(nums, target));
 
     }
