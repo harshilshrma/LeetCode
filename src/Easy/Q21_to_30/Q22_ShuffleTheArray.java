@@ -3,7 +3,7 @@
 // Return the array in the form [x1,y1,x2,y2,...,xn,yn].
 
 
-package Easy.Q21to30;
+package Easy.Q21_to_30;
 public class Q22_ShuffleTheArray {
     public int[] shuffle(int[] nums, int n) {
         int[] abc = new int[nums.length];

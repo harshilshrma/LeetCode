@@ -2,7 +2,7 @@
 // Q18: You are given an integer array nums. The unique elements of an array are the elements that appear
 // exactly once in the array. Return the sum of all the unique elements of nums.
 
-package Easy.Q11to20;
+package Easy.Q11_to_20;
 public class Q18_SumOfUniqueElements {
     public int sumOfUnique(int[] nums) {
         int sum = 0, count = 0;

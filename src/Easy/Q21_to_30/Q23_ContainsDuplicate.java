@@ -2,7 +2,7 @@
 // Q23: Given an integer array nums, return true if any value
 // appears at least twice in the array, and return false if every element is distinct.
 
-package Easy.Q21to30;
+package Easy.Q21_to_30;
 
 import java.util.Arrays;
 import java.util.HashMap;

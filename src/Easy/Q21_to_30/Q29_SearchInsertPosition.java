@@ -3,7 +3,7 @@
 // If not, return the index where it would be if it were inserted in order.
 // You must write an algorithm with O(log n) runtime complexity.
 
-package Easy.Q21to30;
+package Easy.Q21_to_30;
 
 public class Q29_SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {

@@ -5,7 +5,7 @@
 // integer n, return true if n new flowers can be planted in the flowerbed without violating the
 // no-adjacent-flowers rule and false otherwise.
 
-package Easy.Q21to30;
+package Easy.Q21_to_30;
 
 public class Q28_CanPlaceFlowers {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {

@@ -4,7 +4,7 @@
 // and numbers.
 // Given a string s, return true if it is a palindrome, or false otherwise.
 
-package Easy.Q31to40;
+package Easy.Q31_to_40;
 
 // My Approach
 public class Q32_ValidPalindrome {
