@@ -6,7 +6,7 @@
 // Koko likes to eat slowly but still wants to finish eating all the bananas before the guards return.
 // Return the minimum integer k such that she can eat all the bananas within h hours.
 
-package Medium;
+package Medium.Q16_to_40;
 import java.util.Arrays;
 
 public class Q40_KokoEatingBananas {

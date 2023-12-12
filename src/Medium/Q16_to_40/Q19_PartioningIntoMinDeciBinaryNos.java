@@ -4,7 +4,7 @@
 // Given a string n that represents a positive decimal integer, return the minimum number of positive
 // deci-binary numbers needed so that they sum up to n.
 
-package Medium;
+package Medium.Q16_to_40;
 public class Q19_PartioningIntoMinDeciBinaryNos {
     public int minPartitions(String n) {
         int max=0;

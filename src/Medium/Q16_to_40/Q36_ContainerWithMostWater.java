@@ -5,7 +5,7 @@
 // Return the maximum amount of water a container can store.
 // Notice that you may not slant the container.
 
-package Medium;
+package Medium.Q16_to_40;
 
 public class Q36_ContainerWithMostWater {
     public int maxAreaByBruteForce(int[] height) {

@@ -5,7 +5,7 @@
 // length 2. The tests are generated such that there is exactly one solution. You may not use the same element twice.
 // Your solution must use only constant extra space.
 
-package Medium;
+package Medium.Q16_to_40;
 
 import java.util.Arrays;
 

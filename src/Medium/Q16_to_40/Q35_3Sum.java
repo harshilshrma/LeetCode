@@ -3,7 +3,7 @@
 // and j != k, and nums[i] + nums[j] + nums[k] == 0.
 // Notice that the solution set must not contain duplicate triplets.
 
-package Medium;
+package Medium.Q16_to_40;
 
 import java.util.ArrayList;
 import java.util.Arrays;

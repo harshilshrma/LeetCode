@@ -5,7 +5,7 @@
 // Given an integer target, return true if target is in matrix or false otherwise.
 // You must write a solution in O(log(m * n)) time complexity.
 
-package Medium;
+package Medium.Q16_to_40;
 
 public class Q39_SearchA2DMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {

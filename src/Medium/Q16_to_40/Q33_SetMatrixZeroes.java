@@ -4,7 +4,7 @@
 // In computer science, an in-place algorithm is an algorithm that operates directly on the input data
 // structure without requiring extra space proportional to the input size.
 
-package Medium;
+package Medium.Q16_to_40;
 
 import java.util.Arrays;
 

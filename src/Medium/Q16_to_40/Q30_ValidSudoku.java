@@ -8,7 +8,7 @@
 // A Sudoku board (partially filled) could be valid but is not necessarily solvable.
 // Only the filled cells need to be validated according to the mentioned rules.
 
-package Medium;
+package Medium.Q16_to_40;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -2,7 +2,7 @@
 // Q26: Given an integer array nums and an integer k, return the k most frequent elements. You may return the
 // answer in any order.
 
-package Medium;
+package Medium.Q16_to_40;
 import java.util.*;
 
 public class Q26_TopKFrequentElements {
