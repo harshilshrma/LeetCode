@@ -5,7 +5,7 @@
 // Specifically, ans is the concatenation of two nums arrays.
 // Return the array ans.
 
-package Easy.Q01to10;
+package Easy.Q01_to_10;
 public class Q05_ConcatenationOfArray {
     public int[] getConcatenation(int[] nums) {
         int n = nums.length;

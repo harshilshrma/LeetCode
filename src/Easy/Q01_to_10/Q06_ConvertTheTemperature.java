@@ -5,7 +5,7 @@
 // return it as an array ans = [kelvin, fahrenheit].
 // Return the array ans. Answers within 10-5 of the actual answer will be accepted.
 
-package Easy.Q01to10;
+package Easy.Q01_to_10;
 public class Q06_ConvertTheTemperature {
     public double[] convertTemperature(double celsius) {
         double k = celsius +273.15;

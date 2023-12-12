@@ -1,7 +1,7 @@
 // Date: 24 February 2023
 // Q1: Given an integer x, return true if x is a palindrome, and false otherwise.
 
-package Easy.Q01to10;
+package Easy.Q01_to_10;
 public class Q01_PalindromeNumber {
 
     // My solution - 9ms

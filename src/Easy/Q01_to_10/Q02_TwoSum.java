@@ -3,7 +3,7 @@
 // they add up to target. You may assume that each input would have exactly one solution, and you may not use
 // the same element twice. You can return the answer in any order.
 
-package Easy.Q01to10;
+package Easy.Q01_to_10;
 
 import java.util.Arrays;
 import java.util.HashMap;

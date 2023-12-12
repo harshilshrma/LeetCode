@@ -6,7 +6,7 @@
 // where ans[i] = nums[nums[i]] for each 0 <= i < nums.length and return it.
 // A zero-based permutation nums is an array of distinct integers from 0 to nums.length - 1 (inclusive).
 
-package Easy.Q01to10;
+package Easy.Q01_to_10;
 
 // My Solution - O(n)
 public class Q04_BuildArrayFromPermutation {

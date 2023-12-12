@@ -2,7 +2,7 @@
 // Q10: Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
 // Return the running sum of nums.
 
-package Easy.Q01to10;
+package Easy.Q01_to_10;
 public class Q10_RunningSumOf1dArray {
     public int[] runningSum(int[] nums) {
         int n= nums.length;

@@ -10,7 +10,7 @@
 // Return the array answer.
 
 // My Solution: 32ms Runtime
-package Easy.Q01to10;
+package Easy.Q01_to_10;
 
 // My solution: 32ms
 public class Q09_LeftAndRightSumDifferences {
