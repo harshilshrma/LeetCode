@@ -3,7 +3,7 @@
 // write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
 // You must write an algorithm with O(log n) runtime complexity.
 
-package Easy.Q31_to_40;
+package Easy.Q31_to_;
 
 public class Q38_BinarySearch {
     public int search(int[] nums, int target) {

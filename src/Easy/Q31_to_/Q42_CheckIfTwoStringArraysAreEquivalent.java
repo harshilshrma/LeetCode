@@ -3,9 +3,7 @@
 // and false otherwise.
 // A string is represented by an array if the array elements concatenated in order forms the string.
 
-package Easy.Q31_to_40;
-
-import Medium.Q41_FindMinimumInRotatedSortedArray;
+package Easy.Q31_to_;
 
 public class Q42_CheckIfTwoStringArraysAreEquivalent {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
