@@ -17,8 +17,6 @@ public class lc0567_PermutationInString {
         for (int i = 0; i < n; i++) {
             s1Count[s1.charAt(i) - 'a']++;
         }
-        System.out.println(Arrays.toString(s1Count));
-        System.out.println("\n");
 
         for (int i = 0; i < m; i++) {
             // Counting the number of occurrence of each character in s2
@@ -30,8 +28,6 @@ public class lc0567_PermutationInString {
                 // to keep shifting the window in lengths of size of s1 (n)
                 s2Count[s2.charAt(i - n) - 'a']--;
             }
-
-            System.out.println(Arrays.toString(s2Count));
 
             // Checking if the current window in s2 has the same character frequencies as s1
             if (Arrays.equals(s1Count, s2Count)) {
