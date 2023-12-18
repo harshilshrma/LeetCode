@@ -12,7 +12,7 @@ This repository serves as a curated collection showcasing my solutions to challe
 
 ## Number of Questions Solved
 - ![Easy Questions Solved](https://img.shields.io/badge/Easy-28-green)
-- ![Medium Questions Solved](https://img.shields.io/badge/Medium-19-orange)
+- ![Medium Questions Solved](https://img.shields.io/badge/Medium-20-orange)
 - ![Hard Questions Solved](https://img.shields.io/badge/Hard-2-red)
 
 <br>
