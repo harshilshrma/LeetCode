@@ -1,4 +1,4 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode Logo" width="150" height="150">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode Logo" width="100" height="100">
 
 # My LeetCode Solutions
 ![](https://komarev.com/ghpvc/?username=harshilshrma&label=Visitor's+Count&color=f89f1b)
