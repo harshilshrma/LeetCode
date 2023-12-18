@@ -22,7 +22,7 @@ This repository serves as a curated collection showcasing my solutions to challe
 [<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" width="50" height="50">](https://harshilsharma.notion.site/My-LeetCode-Solutions-0b57592c79be446ebb6cf64a2cf1e481?pvs=4) <span style="color:blue">_(Click on the logo to visit the page)_</span>
 
 
-For an in-depth and comprehensive overview of my LeetCode solutions, I invite you to visit [My LeetCode Solutions](https://harshilsharma.notion.site/My-LeetCode-Solutions-0b57592c79be446ebb6cf64a2cf1e481?pvs=4) on my Notion page. This meticulously curated collection offers a detailed perspective on the solutions, including additional context such as company-specific tags, comprehensive notes, and further insights for each problem.
+Explore my Notion page, My LeetCode Solutions, for a detailed view of my curated collection. It provides comprehensive insights into each LeetCode solution, including company tags, extensive notes, and additional context.
 
 
 
