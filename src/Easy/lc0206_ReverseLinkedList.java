@@ -46,20 +46,20 @@ public class lc0206_ReverseLinkedList {
         return rev(temp, node);
     }
 
-        // Main function for testing
-        public static void main (String[] args){
-            lc0206_ReverseLinkedList obj = new lc0206_ReverseLinkedList();
-            ListNode node5 = new ListNode(5);
-            ListNode node4 = new ListNode(4, node5);
-            ListNode node3 = new ListNode(3, node4);
-            ListNode node2 = new ListNode(2, node3);
-            ListNode node1 = new ListNode(1, node2);
+    // Main function for testing
+    public static void main (String[] args){
+        lc0206_ReverseLinkedList obj = new lc0206_ReverseLinkedList();
+        ListNode node5 = new ListNode(5);
+        ListNode node4 = new ListNode(4, node5);
+        ListNode node3 = new ListNode(3, node4);
+        ListNode node2 = new ListNode(2, node3);
+        ListNode node1 = new ListNode(1, node2);
 
-            ListNode reversedList = obj.reverseList(node1);
+        ListNode reversedList = obj.reverseList(node1);
 
-            while (reversedList != null) {
-                System.out.print(reversedList.val + " "); // Print the value of each node
-                reversedList = reversedList.next; // Move to the next node
-            }
+        while (reversedList != null) {
+            System.out.print(reversedList.val + " "); // Print the value of each node
+            reversedList = reversedList.next; // Move to the next node
         }
     }
+}
