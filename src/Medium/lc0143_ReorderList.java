@@ -63,7 +63,6 @@ public class lc0143_ReorderList {
             System.out.print(current.val + " ");
             current = current.next;
         }
-        System.out.println(); // Print a new line after printing the list
     }
 
     // Main function for testing
