@@ -16,7 +16,6 @@
 // Your code will only be given the head of the original linked list.
 
 package Medium;
-
 import java.util.HashMap;
 
 public class lc0138_CopyListWithRandomPointer {
