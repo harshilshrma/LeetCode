@@ -36,7 +36,7 @@ This repository serves as a curated collection showcasing my solutions to challe
 # Badges Earned
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="https://assets.leetcode.com/static_assets/marketing/lg50.png" alt="leetcode 50 days" height="90px" title="LeetCode 50 Days Badge 2023">
+    <img src="https://assets.leetcode.com/static_assets/marketing/2023-50.gif" alt="leetcode 50 days" height="90px" title="LeetCode 50 Days Badge 2023">
   </div>
 </div>
 
