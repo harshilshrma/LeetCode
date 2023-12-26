@@ -11,8 +11,8 @@ This repository serves as a curated collection showcasing my solutions to challe
 <br>
 
 ## Number of Questions Solved
-- ![Easy Questions Solved](https://img.shields.io/badge/Easy-29-green)
-- ![Medium Questions Solved](https://img.shields.io/badge/Medium-20-orange)
+- ![Easy Questions Solved](https://img.shields.io/badge/Easy-31-green)
+- ![Medium Questions Solved](https://img.shields.io/badge/Medium-24-orange)
 - ![Hard Questions Solved](https://img.shields.io/badge/Hard-4-red)
 
 <br>
