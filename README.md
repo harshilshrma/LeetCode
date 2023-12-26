@@ -51,7 +51,7 @@ This repository serves as a curated collection showcasing my solutions to challe
 Access exclusive LeetCode solutions directly on my Notion! Share your email to receive lifetime access to this meticulously curated cheat sheet, <strong> My LeetCode Solutions, </strong> which is updated almost daily.
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="https://i.ibb.co/VMwmMMX/2.png" alt="CSS icon" width="880px" title="image2">
+    <img src="https://i.ibb.co/VMwmMMX/2.png" alt="CSS icon" title="image">
   </div>
 </div>
 
