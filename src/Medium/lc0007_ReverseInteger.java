@@ -18,6 +18,11 @@ public class lc0007_ReverseInteger {
         else
             return 0;
     }
+
+    public static void main(String[] args) {
+        lc0007_ReverseInteger obj = new lc0007_ReverseInteger();
+        System.out.println(obj.reverse(200));
+    }
 }
 
 
