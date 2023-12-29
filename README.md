@@ -10,7 +10,7 @@ This repository serves as a curated collection showcasing my solutions to challe
 <br>
 
 
-# Number of Questions Solved
+# Number of Questions Solved (61)
 
 <!-- 
 - ![Easy Questions Solved](https://img.shields.io/badge/Easy-31-green)
