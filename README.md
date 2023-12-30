@@ -9,22 +9,21 @@ This repository serves as a curated collection showcasing my solutions to challe
 
 <br>
 
-
-# Number of Questions Solved
+# Number of Questions Solved (62)
 
 <!--
-- ![Easy Questions Solved](https://img.shields.io/badge/Easy-31-green)
-- ![Medium Questions Solved](https://img.shields.io/badge/Medium-24-orange)
-- ![Hard Questions Solved](https://img.shields.io/badge/Hard-4-red)
--->
+- ![Easy Questions Solved](https://img.shields.io/badge/Easy-32-green)
+- ![Medium Questions Solved](https://img.shields.io/badge/Medium-25-orange)
+- ![Hard Questions Solved](https://img.shields.io/badge/Hard-6-red)
+ -->
 
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
-    <img src="https://camo.githubusercontent.com/af1e0afc16d1bcb6d3779da6dee7510bc00e677b0dec70a002b13ac29f8b2194/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d33312d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/0017218ffa10ac6fe01ab78252cca0a5c05409f88e4de8c8637a24541bb373db/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d33312d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://camo.githubusercontent.com/240003b242d0ec102c2401df3b4f50d0f54c1a8ac94bdc967e242460de1daf3a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d32342d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/205615e30b233acde1627c9f5e054bfb4ac09df87395f6aec80fb3f494a71d47/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d32352d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://camo.githubusercontent.com/e54496e78591acd8b773282191f59e8225e04c007ae295b57145e955251545f9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486172642d342d726564" alt="" height="35px" title="">
+    <img src="https://camo.githubusercontent.com/eb458ab628791acaf4cdb4af6ac40e062a38008b7a62b5411e8afb978c1f046a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486172642d362d726564" alt="" height="35px" title="">
   </div>
 </div>
 
