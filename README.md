@@ -1,4 +1,4 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode Logo" width="100" height="100">
+[<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" width="100" height="100" alt="LeetCode Logo" style="border-radius: 10px;" target="_main">](https://leetcode.com/harshilsharma2020/) <span style="color:blue"><em>(Click on the logo to head over to my LeetCode profile!)</em></span>
 
 # My LeetCode Solutions
 
