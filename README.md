@@ -3,9 +3,13 @@
 # My LeetCode Solutions
 
 Contained within this repository are solutions to various LeetCode questions I've tackled. 
-> The solutions are organized into folders categorized by difficulty levels: Easy, Medium, and Hard. Each file is named using the respective LeetCode question number along with it's name.
+> The solutions are organized into folders categorized by difficulty levels: Easy, Medium, and Hard. Each file is named using the respective LeetCode question number along with its name.
+> <p><em><strong>Note: Head over to the "src" folder to access my LeetCode solutions.</strong></em></p>
 
-This repository serves as a curated collection showcasing my solutions to challenges across different difficulty levels on the LeetCode platform.
+This repository is a curated collection showcasing my solutions to challenges across different difficulty levels on the LeetCode platform.
+
+
+
 
 <br>
 
