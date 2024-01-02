@@ -13,8 +13,8 @@ import java.util.Stack;
 
 public class lc0155_MinStack {
 
-    private Stack<Integer> stack;
-    private Stack<Integer> minStack ;
+    private final Stack<Integer>    stack;
+    private final Stack<Integer> minStack ;
 
     public lc0155_MinStack() {
         stack = new Stack<>();
