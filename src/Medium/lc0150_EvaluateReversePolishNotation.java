@@ -11,11 +11,35 @@
 
 package Medium;
 
+import java.util.Stack;
+
 public class lc0150_EvaluateReversePolishNotation {
     public int evalRPN(String[] tokens) {
+        Stack<Integer> stack = new Stack<>();
 
-
-        return 0;
+        for (String token : tokens) {
+            if (token.equals("+")) {
+                // Add the last two elements popped from the stack and push the result back
+                stack.add(stack.pop() + stack.pop());
+            } else if (token.equals("-")) {
+                // Subtract the last element popped from the second-to-last element and push the result back
+                int a = stack.pop();
+                int b = stack.pop();
+                stack.add(b - a);
+            } else if (token.equals("*")) {
+                // Multiply the last two elements popped from the stack and push the result back
+                stack.add(stack.pop() * stack.pop());
+            } else if (token.equals("/")) {
+                // Divide the second-to-last element by the last element popped from the stack and push the result back
+                int a = stack.pop();
+                int b = stack.pop();
+                stack.add(b / a);
+            } else {
+                // Convert the token to an integer and push it onto the stack
+                stack.push(Integer.parseInt(token));
+            }
+        }
+        return stack.peek();
     }
 
     // Main function for testing
