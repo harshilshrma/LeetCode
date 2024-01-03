@@ -36,18 +36,18 @@ public class lc0022_GenerateParentheses {
 
         // Adding an open parenthesis if the count of open parentheses is less than 'n'
         if (openN < n) {
-            // Add an open parenthesis to the stack and proceed to the next level
             stack.push('(');
             backtrack(openN + 1, closedN, n);
+
             // Backtracking: Remove the last added open parenthesis to explore other combinations
             stack.pop();
         }
 
         // Adding a closed parenthesis if the count of closed is less than the count of open
         if (closedN < openN) {
-            // Add a closed parenthesis to the stack and proceed to the next level
             stack.push(')');
             backtrack(openN, closedN + 1, n);
+
             // Backtracking: Remove the last added closed parenthesis to explore other combinations
             stack.pop();
         }
