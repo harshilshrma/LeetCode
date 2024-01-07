@@ -10,15 +10,36 @@
 
 package Hard;
 
+import java.util.Arrays;
+import java.util.HashMap;
+
 public class lc0446_ArithmeticSlicesIISubsequence {
     public int numberOfArithmeticSlices(int[] nums) {
+        int n = nums.length;
+        int result = 0;
+        HashMap<Long, Integer>[] mp = new HashMap[n]; // Array of HashMaps to store differences and counts
 
+        for (int i = 0; i < n; i++) {
+            // Initializing a HashMap for each index 'i' to store differences and their counts
+            mp[i] = new HashMap<>();
+            for (int j = 0; j < i; j++) {
+                // Calculating the difference between the elements at indices 'i' and 'j'
+                long diff = (long) nums[i] - nums[j];
 
+                // Retrieving the count of subsequences with the same difference
+                int count = mp[j].getOrDefault(diff, 0);
 
+                // Accumulating the counts for valid arithmetic subsequences
+                result = result + count;
 
+                // Updating the count for subsequences ending at index 'i' with the same difference
+                mp[i].put(diff, mp[i].getOrDefault(diff, 0) + count + 1);
+            }
+        }
+        return result; // Returning the total count of valid arithmetic subsequences
     }
 
-    // Main fucntion for testing
+    // Main function for testing
     public static void main(String[] args) {
         lc0446_ArithmeticSlicesIISubsequence obj = new lc0446_ArithmeticSlicesIISubsequence();
         int[] nums = {2,4,6,8,10};
