@@ -13,7 +13,7 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 <br>
 
-# Number of Questions Solved (79)
+# Number of Questions Solved (78)
 
 <!-- 
 
