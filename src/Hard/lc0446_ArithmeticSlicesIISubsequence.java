@@ -9,8 +9,6 @@
 //The test cases are generated so that the answer fits in 32-bit integer.
 
 package Hard;
-
-import java.util.Arrays;
 import java.util.HashMap;
 
 public class lc0446_ArithmeticSlicesIISubsequence {
