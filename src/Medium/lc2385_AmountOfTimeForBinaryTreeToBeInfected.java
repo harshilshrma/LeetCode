@@ -85,39 +85,34 @@ public class lc2385_AmountOfTimeForBinaryTreeToBeInfected {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     // DFS Approach
-    // Time Complexity: O(N),  ms
-    // Space Complexity: O(H),  MB
+    // Time Complexity: O(N), 7 ms
+    // Space Complexity: O(H), 78.39 MB
 
-    private int max; // Global variable to hold the answer
+    private int ans; // Global variable to hold the answer
 
     public int amountOfTimeByDFS(TreeNode root, int start) {
         dfs(root, start);
-        return max;
+        return ans;
     }
 
-    public int dfs(TreeNode node, int start) {
-        if (node == null) {
-            return 0;
-        }
+    public int dfs(TreeNode root, int start) {
+        if (root == null) return 0; // Base case for null node
 
-        int leftDepth = dfs(node.left, start);
-        int rightDepth = dfs(node.right, start);
+        int leftDepth = dfs(root.left, start); // DFS for left subtree
+        int rightDepth = dfs(root.right, start); // DFS for right subtree
 
-        if (node.val == start) {
-            max = Math.max(leftDepth, rightDepth);
-            return -1;
-        } else if (leftDepth >= 0 && rightDepth >= 0) {
-
-
-        } else {
-
+        if (root.val == start) { // If 'start' node is found
+            ans = Math.max(leftDepth, rightDepth); // Update 'ans' with maximum depth
+            return -1; // Indicate 'start' node found
+        } else if (leftDepth >= 0 && rightDepth >= 0) { // 'start' node in both subtrees
+            return Math.max(leftDepth, rightDepth) + 1; // Return maximum depth + 1
+        } else { // 'start' node only in one subtree
+            ans = Math.max(ans, Math.abs(leftDepth - rightDepth)); // Update 'ans' with difference in depths
+            return Math.min(leftDepth, rightDepth) - 1; // Return minimum depth - 1
         }
     }
-
-
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
 
     // To create a tree from an array
     public static TreeNode createTreeFromArray(Integer[] values) {
@@ -148,6 +143,6 @@ public class lc2385_AmountOfTimeForBinaryTreeToBeInfected {
         Integer[] values = {1,5,3,null,4,10,6,9,2};
         TreeNode root = createTreeFromArray(values);
         int start = 10;
-        System.out.println(obj.amountOfTimeByBFS(root, start));
+        System.out.println(obj.amountOfTimeByDFS(root, start));
     }
 }
