@@ -8,17 +8,20 @@ Contained within this repository are solutions to various LeetCode questions I'v
 
 This repository is a curated collection showcasing my solutions to challenges across different difficulty levels on the LeetCode platform.
 
+[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>Current Streak: 11 days</em></span>
+
+
 
 
 
 <br>
 
-# Number of Questions Solved (80)
+# Number of Questions Solved (82)
 
 <!-- 
 
 - ![Easy Questions Solved](https://img.shields.io/badge/Easy-37-green)
-- ![Medium Questions Solved](https://img.shields.io/badge/Medium-34-orange)
+- ![Medium Questions Solved](https://img.shields.io/badge/Medium-36-orange)
 - ![Hard Questions Solved](https://img.shields.io/badge/Hard-9-red)
 -->
 
@@ -26,7 +29,7 @@ This repository is a curated collection showcasing my solutions to challenges ac
   <div style="display: flex; justify-content: center;">
     <img src="https://camo.githubusercontent.com/10749b7a0fe23dc8754c53ecb75334b69986b5fe8922f5eef474138ecad64af0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d33372d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://camo.githubusercontent.com/aa9f086ab3814ba1a6c78ede021f5c164c6bdba0ec26ff4c7da2640b10589c16/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d33342d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/18813f49c4e34dd6247e2bcc465ad2bf280a59274e153b7d4db9b7c0294dd977/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d33362d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://camo.githubusercontent.com/bd3379c6b440cb40ec10947811d5e3beb60c38303b00139c62f9a9e27a4a05ea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486172642d392d726564" alt="" height="35px" title="">
   </div>
