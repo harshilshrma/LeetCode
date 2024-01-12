@@ -23,7 +23,44 @@ public class lc0226_InvertBinaryTree {
         }
 
         TreeNode[] nodes = new TreeNode[values.length];
+        for (int i = 0; i < values.length; i++) {
+            if (values[i] != null) {
+                nodes[i] = new TreeNode(values[i], null, null);
+            }
+        }
 
+        for (int i = 0; i < values.length; i++) {
+            if (nodes[i] != null) {
+                int leftIdx = 2 * i + 1;
+                int rightIdx = 2 * i + 2;
+                nodes[i].left = (leftIdx < values.length) ? nodes[leftIdx] : null;
+                nodes[i].right = (rightIdx < values.length) ? nodes[rightIdx] : null;
+            }
+        }
+        return nodes[0];
+    }
 
+    public TreeNode invertTree(TreeNode root) {
+        if (root == null) {
+            return null;
+        }
+
+        // swapping the children
+        TreeNode temp = root.left;
+        root.left = root.right;
+        root.right = temp;
+
+        invertTree(root.left);
+        invertTree(root.right);
+
+        return root;
+    }
+
+    // Main function for testing
+    public static void main(String[] args) {
+        lc0226_InvertBinaryTree obj = new lc0226_InvertBinaryTree();
+        Integer[] values = {4,2,7,1,3,6,9};
+        TreeNode root = createTree(values);
+        System.out.println(obj.invertTree(root));
     }
 }
