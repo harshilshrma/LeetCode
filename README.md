@@ -16,20 +16,20 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 <br>
 
-# Number of Questions Solved (90)
+# Number of Questions Solved (92)
 
 <!-- 
 
-- ![Easy Questions Solved](https://img.shields.io/badge/Easy-42-green)
-- ![Medium Questions Solved](https://img.shields.io/badge/Medium-38-orange)
+- ![Easy Questions Solved](https://img.shields.io/badge/Easy-43-green)
+- ![Medium Questions Solved](https://img.shields.io/badge/Medium-39-orange)
 - ![Hard Questions Solved](https://img.shields.io/badge/Hard-10-red)
 -->
 
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
-    <img src="https://camo.githubusercontent.com/6799a5eec9dd9e1a2c62b24ce7dfa0ef44085a6098133b9847f99ac7a0d1d48e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d34322d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/ddb92b6c2e4b8eb9f908b8daddaebedd68b6f874535594c1d1d991a042a1ebc2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d34332d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://camo.githubusercontent.com/0c76d225b4ba10490e9923a7414e681fa94002dd4a420a824baf5a7977f590c4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d33382d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/d3a23009277c3101a830fb8625bf1c917874c351d863a448261be32f7e9e69e4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d33392d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://camo.githubusercontent.com/16857d72f8cf1311aa9374524b6f268b50023a939cea10ca56f0a7e721c7b0cc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486172642d31302d726564" alt="" height="35px" title="">
   </div>
