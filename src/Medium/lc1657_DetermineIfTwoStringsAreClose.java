@@ -12,12 +12,54 @@
 
 package Medium;
 
+import java.util.Arrays;
+
 public class lc1657_DetermineIfTwoStringsAreClose {
     public boolean closeStrings(String word1, String word2) {
+        // Get the lengths of the input strings
+        int m = word1.length();
+        int n = word2.length();
 
+        // If the lengths are not equal, the strings cannot be close
+        if (m != n) {
+            return false;
+        }
 
+        // Convert strings to char arrays for easy access
+        char[] arr1 = word1.toCharArray();
+        char[] arr2 = word2.toCharArray();
 
-        return true;
+        // Arrays to store the frequency of each character in both strings
+        int[] freq1 = new int[26];
+        int[] freq2 = new int[26];
+
+        // Iterate through the characters in both strings
+        for (int i = 0; i < m; i++) {
+            char c1 = arr1[i];
+            char c2 = arr2[i];
+
+            // Calculate indices for character frequency arrays
+            int idx1 = c1 - 'a';
+            int idx2 = c2 - 'a';
+
+            // Update character frequencies
+            freq1[idx1]++;
+            freq2[idx2]++;
+        }
+
+        // Check if characters with non-zero frequency are the same in both strings
+        for (int i = 0; i < 26; i++) {
+            if (freq1[i] != 0 && freq2[i] != 0) continue;
+            if (freq1[i] == 0 && freq2[i] == 0) continue;
+            else return false;
+        }
+
+        // Sort character frequencies arrays
+        Arrays.sort(freq1);
+        Arrays.sort(freq2);
+
+        // Check if the sorted character frequencies arrays are equal
+        return Arrays.equals(freq1, freq2);
     }
 
     // Main function for testing
