@@ -8,7 +8,7 @@ Contained within this repository are solutions to various LeetCode questions I'v
 
 This repository is a curated collection showcasing my solutions to challenges across different difficulty levels on the LeetCode platform.
 
-[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>Current Streak: <strong>15 days</strong></em></span>
+[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>Current Streak: <strong>16 days</strong></em></span>
 
 
 
@@ -16,21 +16,21 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 <br>
 
-# Number of Questions Solved (93)
+# Number of Questions Solved (95)
 
-<!-- 
+<!--
 
-- ![Easy Questions Solved](https://img.shields.io/badge/Easy-43-green)
-- ![Medium Questions Solved](https://img.shields.io/badge/Medium-40-orange)
+- ![Easy Questions Solved](https://img.shields.io/badge/Easy-44-green)
+- ![Medium Questions Solved](https://img.shields.io/badge/Medium-41-orange)
 - ![Hard Questions Solved](https://img.shields.io/badge/Hard-10-red)
+ -->
 
--->
 
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
-    <img src="https://camo.githubusercontent.com/ddb92b6c2e4b8eb9f908b8daddaebedd68b6f874535594c1d1d991a042a1ebc2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d34332d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/1738abd0151c4ed5c8e5e347140061b151f3886a6ab08b0d304036c40718bbd1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d34342d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://camo.githubusercontent.com/254575d0901ca2d3756bef403b1556b3d2431ac557c7c2bebdd86252363e07f5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d34302d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/586e461a82848ab0f583f106c6e49a26a09975ff3435fb3874959b8ce8dc85c7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d34312d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://camo.githubusercontent.com/16857d72f8cf1311aa9374524b6f268b50023a939cea10ca56f0a7e721c7b0cc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486172642d31302d726564" alt="" height="35px" title="">
   </div>
