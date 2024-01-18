@@ -8,7 +8,7 @@ Contained within this repository are solutions to various LeetCode questions I'v
 
 This repository is a curated collection showcasing my solutions to challenges across different difficulty levels on the LeetCode platform.
 
-[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>Current Streak: <strong>16 days</strong></em></span>
+[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>Current Streak: <strong>17 days</strong></em></span>
 
 
 
@@ -16,19 +16,19 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 <br>
 
-# Number of Questions Solved (95)
+# Number of Questions Solved (97)
 
-<!--
+<!-- 
 
-- ![Easy Questions Solved](https://img.shields.io/badge/Easy-44-green)
+
+- ![Easy Questions Solved](https://img.shields.io/badge/Easy-46-green)
 - ![Medium Questions Solved](https://img.shields.io/badge/Medium-41-orange)
 - ![Hard Questions Solved](https://img.shields.io/badge/Hard-10-red)
- -->
-
+-->
 
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
-    <img src="https://camo.githubusercontent.com/1738abd0151c4ed5c8e5e347140061b151f3886a6ab08b0d304036c40718bbd1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d34342d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/85eef7a22ccda88831ea3c40c1a5389359710b3fa7ced9cca2a30bff3c81614f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d34362d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://camo.githubusercontent.com/586e461a82848ab0f583f106c6e49a26a09975ff3435fb3874959b8ce8dc85c7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d34312d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
