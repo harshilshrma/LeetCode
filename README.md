@@ -8,7 +8,7 @@ Contained within this repository are solutions to various LeetCode questions I'v
 
 This repository is a curated collection showcasing my solutions to challenges across different difficulty levels on the LeetCode platform.
 
-[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>LeetCode Daily Streak: <strong>19 days</strong></em></span>
+[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>LeetCode Daily Streak: <strong>20 days</strong></em></span>
 
 
 
@@ -16,21 +16,21 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 <br>
 
-# Number of Questions Solved (99)
+# Number of Questions Solved (100)
 
-<!--
+<!-- 
 
 
 - ![Easy Questions Solved](https://img.shields.io/badge/Easy-47-green)
-- ![Medium Questions Solved](https://img.shields.io/badge/Medium-42-orange)
+- ![Medium Questions Solved](https://img.shields.io/badge/Medium-43-orange)
 - ![Hard Questions Solved](https://img.shields.io/badge/Hard-10-red)
- -->
+-->
 
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
     <img src="https://camo.githubusercontent.com/9f6c327cea3916248ae666da6f8ddca0b20c7570d5780b7d8b8d886f9181bfa8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d34372d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://camo.githubusercontent.com/ec5b17153ac02f08408881e3bc7b674db6d9bf1aa8679fb20630fa274468ed42/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d34322d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/56a3c33a5f818d1d6e2d511ecbab9853eaa8e6867a5c6c42954a33227fb24678/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d34332d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://camo.githubusercontent.com/16857d72f8cf1311aa9374524b6f268b50023a939cea10ca56f0a7e721c7b0cc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486172642d31302d726564" alt="" height="35px" title="">
   </div>
@@ -72,6 +72,6 @@ I appreciate your interest and I'm excited to support your learning journey! ✨
 
 <br>
 
-<em>Last Updated: 18 January 2024 - 05:50 pm IST</em>
+<em>Last Updated: 20 January 2024 - 10:42 pm IST</em>
 
 
