@@ -8,8 +8,6 @@
 // you can rob tonight without alerting the police.
 
 package Medium;
-
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class lc0198_HouseRobber {
