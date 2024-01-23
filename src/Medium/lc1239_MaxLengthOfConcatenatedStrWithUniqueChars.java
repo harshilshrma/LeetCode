@@ -9,9 +9,12 @@
 package Medium;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class lc1239_MaxLengthOfConcatenatedStrWithUniqueChars {
+
+    private HashMap<String, Integer> memo = new HashMap<>();
 
     public boolean hasDuplicate(String s1, String s2) {
         int[] arr = new int[26];
@@ -38,6 +41,12 @@ public class lc1239_MaxLengthOfConcatenatedStrWithUniqueChars {
             return temp.length();
         }
 
+        String key = i + "|" + temp;
+
+        if (memo.containsKey(key)) {
+            return memo.get(key);
+        }
+
         int include = 0;
         int exclude = 0;
 
@@ -51,7 +60,10 @@ public class lc1239_MaxLengthOfConcatenatedStrWithUniqueChars {
         }
 
         // Return the maximum length obtained by including or excluding the current string
-        return Math.max(include, exclude);
+        int maxLength = Math.max(include, exclude);
+        memo.put(key, maxLength);
+
+        return maxLength;
     }
 
     public int maxLength(List<String> arr) {
