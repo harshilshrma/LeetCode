@@ -10,10 +10,23 @@ package Medium;
 
 public class lc1143_LongestCommonSubsequence {
     public int longestCommonSubsequence(String text1, String text2) {
+        int[][] dp = new int[text1.length() + 1][text2.length() + 1];
 
+        // Fill the dynamic programming table
+        for (int i = text1.length() - 1; i >= 0; i--) {
+            for (int j = text2.length() - 1; j >= 0; j--) {
+                if (text1.charAt(i) == text2.charAt(j)) {
+                    // Characters match, extend the common subsequence
+                    dp[i][j] = 1 + dp[i + 1][j + 1];
+                } else {
+                    // Characters don't match, consider the maximum length obtained by excluding a character
+                    dp[i][j] = Math.max(dp[i + 1][j], dp[i][j + 1]);
+                }
+            }
+        }
 
-        return 0;
-
+        // Return the length of the longest common subsequence
+        return dp[0][0];
     }
 
     // Main function for testing
