@@ -36,8 +36,7 @@ This repository is a curated collection showcasing my solutions to challenges ac
   </div>
 </div>
 
-
-
+<br>
 
 <br>
 
@@ -47,6 +46,8 @@ This repository is a curated collection showcasing my solutions to challenges ac
     <img src="https://assets.leetcode.com/static_assets/marketing/2023-50.gif" alt="leetcode 50 days" height="90px" title="LeetCode 50 Days Badge 2023">
   </div>
 </div>
+
+<br>
 
 <br>
 
