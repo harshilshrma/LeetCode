@@ -27,7 +27,7 @@ public class lc0102_BinaryTreeLevelOrderTraversal {
         List<List<Integer>> res = new ArrayList<>();
         Queue<TreeNode> q = new LinkedList<>();
 
-        if (root == null) return null;
+        if (root == null) return res;
 
         while (!q.isEmpty()) {
             int len = q.size();
