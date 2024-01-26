@@ -38,7 +38,6 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 <br>
 
-<br>
 
 # Badges Earned
 <div style="text-align: center;">
@@ -49,7 +48,7 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 <br>
 
-<br>
+
 
 # Get Access to my LeetCode Solutions on Notion!
 
