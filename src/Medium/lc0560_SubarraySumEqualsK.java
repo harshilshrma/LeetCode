@@ -36,7 +36,7 @@ public class lc0560_SubarraySumEqualsK {
     // Main function for testing
     public static void main(String[] args) {
         lc0560_SubarraySumEqualsK obj = new lc0560_SubarraySumEqualsK();
-        int[] nums = {1,1,1};
+        int[] nums = {1, 1, 1};
         int k = 2;
         System.out.println(obj.subarraySum(nums, k));
     }
