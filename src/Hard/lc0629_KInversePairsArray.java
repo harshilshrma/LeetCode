@@ -5,6 +5,7 @@
 // that there are exactly k inverse pairs. Since the answer can be huge, return it modulo 109 + 7.
 
 package Hard;
+
 import java.util.Arrays;
 
 // Recursive Solution
@@ -62,7 +63,6 @@ class RecursiveMethod {
 
 // Bottom Up Approach
 class BottomUp {
-
     // Main function to calculate k inverse pairs
     public int kInversePairs(int n, int k) {
         int mod = 1_000_000_000 + 7;
