@@ -55,7 +55,7 @@ public class lc1074_NoOfSubmatricesThatSumToTarget {
     // Main function for testing
     public static void main(String[] args) {
         lc1074_NoOfSubmatricesThatSumToTarget obj = new lc1074_NoOfSubmatricesThatSumToTarget();
-        int[][] matrix = {{0,1,0},{1,1,1},{0,1,0}};
+        int[][] matrix = {{0, 1, 0}, {1, 1, 1}, {0, 1, 0}};
         int target = 0;
         System.out.println(obj.numSubmatrixSumTarget(matrix, target));
     }
