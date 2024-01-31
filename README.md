@@ -8,7 +8,7 @@ Contained within this repository are solutions to various LeetCode questions I'v
 
 This repository is a curated collection showcasing my solutions to challenges across different difficulty levels on the LeetCode platform.
 
-[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>LeetCode Daily Streak: <strong>28 days</strong></em></span>
+[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>LeetCode Daily Streak: <strong>29 days</strong></em></span>
 
 
 
@@ -16,19 +16,19 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 <br>
 
-# Number of Questions Solved (112)
+# Number of Questions Solved (113)
 
 <!-- 
 
-
-- ![Easy Questions Solved](https://img.shields.io/badge/Easy-49-green)
+- ![Easy Questions Solved](https://img.shields.io/badge/Easy-50-green)
 - ![Medium Questions Solved](https://img.shields.io/badge/Medium-51-orange)
 - ![Hard Questions Solved](https://img.shields.io/badge/Hard-12-red)
 -->
 
+
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
-    <img src="https://camo.githubusercontent.com/7d696959ce4cb40ce6ec338add31ccf71bdcfe21e9366085cd0a5d713bba8f92/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d34392d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/6f56b9b0f277d9307309db20cd9ebd6458267e6d7e44c7f6f99eeb22966c82dd/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d35302d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://camo.githubusercontent.com/1f4e6d6c32c8ddaf9b0540f8d9adc32f3499b37057bcf672c330b15a6f11d62b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d35312d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -74,6 +74,6 @@ I appreciate your interest and I'm excited to support your learning journey! ✨
 
 ---
 
-<em>Last Updated: 28 January 2024 - 10:58 pm IST</em>
+<em>Last Updated: 29 January 2024 - 10:53 pm IST</em>
 
 
