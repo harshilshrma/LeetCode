@@ -10,18 +10,17 @@ import java.util.Stack;
 
 public class lc0739_DailyTemperatures {
     public int[] dailyTemperatures(int[] temperatures) {
-        int[] ans = new int[temperatures.length]; // Array to store waiting days for warmer temperatures
-        Stack<Integer> stack = new Stack<>(); // Stack to store indices of temperatures
+        int[] ans = new int[temperatures.length];
+        Stack<Integer> st = new Stack<>();
 
-        for (int currDay = 0; currDay < temperatures.length; currDay++) {
-            // Check if the current temperature is higher than temperatures in the stack
-            while (!stack.isEmpty() && temperatures[currDay] > temperatures[stack.peek()]) {
-                int prevDay = stack.pop(); // Get the index of the previous temperature
-                ans[prevDay] = currDay - prevDay; // Calculate the number of days to wait for a warmer temperature
+        for (int curDay = 0; curDay < temperatures.length; curDay++) {
+            while (!st.isEmpty() && temperatures[curDay] > temperatures[st.peek()]) {
+
             }
-            stack.add(currDay); // Add the index of the current temperature to the stack
+            st.add(temperatures[curDay]);
         }
-        return ans; // Return the array with waiting days for warmer temperatures
+
+        return ans;
     }
 
     // Main function for testing
