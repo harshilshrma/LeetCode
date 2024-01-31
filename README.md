@@ -53,11 +53,11 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 # Get Access to my LeetCode Solutions on Notion!
 
-[<img src="https://cdn-icons-png.flaticon.com/512/5968/5968528.png" width="50" height="50">](https://forms.gle/Am4LHigcuPJzcCPg8) <span style="color:blue">_(Click on the icon to enter your email)_</span>
+[<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" width="50" height="50">](https://forms.gle/Am4LHigcuPJzcCPg8) <span style="color:blue">_(Click on the icon to access the notes)_</span>
 
 <br>
 
-Access exclusive LeetCode solutions directly on my Notion! Share your email to receive lifetime access to this meticulously curated cheat sheet, <strong> My LeetCode Solutions, </strong> which is updated almost daily.
+Access exclusive LeetCode solutions directly on my Notion! Receive lifetime access to this meticulously curated cheat sheet, <strong> My LeetCode Solutions, </strong> which is updated almost daily.
 
 <br>
 
@@ -74,6 +74,6 @@ I appreciate your interest and I'm excited to support your learning journey! ✨
 
 ---
 
-<em>Last Updated: 31 January 2024 - 02:22 pm IST</em>
+<em>Last Updated: 31 January 2024 - 02:52 pm IST</em>
 
 
