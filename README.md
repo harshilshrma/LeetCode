@@ -8,7 +8,7 @@ Contained within this repository are solutions to various LeetCode questions I'v
 
 This repository is a curated collection showcasing my solutions to challenges across different difficulty levels on the LeetCode platform.
 
-[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>LeetCode Daily Streak: <strong>29 days</strong></em></span>
+[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>LeetCode Daily Streak: <strong>31 days</strong></em></span>
 
 
 
@@ -42,7 +42,8 @@ This repository is a curated collection showcasing my solutions to challenges ac
 # Badges Earned
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="https://assets.leetcode.com/static_assets/marketing/2023-50.gif" alt="leetcode 50 days" height="90px" title="LeetCode 50 Days Badge 2023">
+    <img src="https://assets.leetcode.com/static_assets/marketing/2023-50.gif" alt="leetcode 2023 50 days" height="90px" title="LeetCode 50 Days Badge 2023">
+    <img src="https://leetcode.com/static/images/badges/2024/gif/2024-01.gif" alt="leetcode 2024 jan" height="90px" title="LeetCode January Badge 2024">
   </div>
 </div>
 
@@ -52,11 +53,11 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 # Get Access to my LeetCode Solutions on Notion!
 
-[<img src="https://cdn-icons-png.flaticon.com/512/5968/5968528.png" width="50" height="50">](https://forms.gle/Am4LHigcuPJzcCPg8) <span style="color:blue">_(Click on the icon to enter your email)_</span>
+[<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" width="50" height="50">](https://forms.gle/Am4LHigcuPJzcCPg8) <span style="color:blue">_(Click on the icon to access the notes)_</span>
 
 <br>
 
-Access exclusive LeetCode solutions directly on my Notion! Share your email to receive lifetime access to this meticulously curated cheat sheet, <strong> My LeetCode Solutions, </strong> which is updated almost daily.
+Access exclusive LeetCode solutions directly on my Notion! Receive lifetime access to this meticulously curated cheat sheet, <strong> My LeetCode Solutions, </strong> which is updated almost daily.
 
 <br>
 
@@ -70,10 +71,9 @@ It provides comprehensive insights into each LeetCode solution, including <stron
 
 I appreciate your interest and I'm excited to support your learning journey! ✨
 
-<br>
 
 ---
 
-<em>Last Updated: 29 January 2024 - 10:53 pm IST</em>
+<em>Last Updated: 31 January 2024 - 02:52 pm IST</em>
 
 
