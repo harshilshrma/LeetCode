@@ -54,7 +54,7 @@ public class lc0076_MinimumWindowSubstring {
                 // Extracting the char at beginning of the window and then shifting the window to the right by +1
                 char deleted = s.charAt(l++); // First l is used, then incremented by 1
                 if (map.containsKey(deleted)) { // Valuable char that we needed but is now removed because we have to
-                    // carry forward the window to the right to properly iterate it to the end of the array
+                    // carry forward the window to the right   properly iterate it to the end of the array
 
                     // So, matched is decremented to indicate that this character is no longer fully present
                     // in the window.
