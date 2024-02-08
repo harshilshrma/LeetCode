@@ -16,20 +16,20 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 <br>
 
-# Number of Questions Solved (117)
+# Number of Questions Solved (121)
 
 <!-- 
-- ![Easy Questions Solved](https://img.shields.io/badge/Easy-50-green)
-- ![Medium Questions Solved](https://img.shields.io/badge/Medium-55-orange)
+- ![Easy Questions Solved](https://img.shields.io/badge/Easy-52-green)
+- ![Medium Questions Solved](https://img.shields.io/badge/Medium-57-orange)
 - ![Hard Questions Solved](https://img.shields.io/badge/Hard-12-red)
 -->
 
 
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
-    <img src="https://camo.githubusercontent.com/6f56b9b0f277d9307309db20cd9ebd6458267e6d7e44c7f6f99eeb22966c82dd/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d35302d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/a28e6179c7f8c973b5eb882713036e3ee91780eec30efe26fcbf96784598e99d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d35322d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://camo.githubusercontent.com/39e6075b265f83793179fec9e8719e735d378f8d1cc9e1b25929574362453a1d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d35352d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/79c9edace68ae91bfd1baec014a513a98a21e6a1c9bee3cc6326649202656618/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d35372d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://camo.githubusercontent.com/ad296fa84c155c1cbd8afd6252be11178cf91952623ddfe0e4ad16b7ff33cfff/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486172642d31322d726564" alt="" height="35px" title="">
   </div>
@@ -73,6 +73,6 @@ I appreciate your interest and I'm excited to support your learning journey! ✨
 
 ---
 
-<em>Last Updated: 03 February 2024 - 07:41 pm IST</em>
+<em>Last Updated: 09 February 2024 - 01:35 am IST</em>
 
 
