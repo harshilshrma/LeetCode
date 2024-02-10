@@ -13,9 +13,11 @@ import java.util.List;
 
 public class lc0368_LargestDivisibleSubset {
 
+    // Recursive function to find the largest divisible subset
     public void solve(int idx, int[] nums, List<Integer> result, List<Integer> temp, int prev) {
-
+        // Base case: if index exceeds array length
         if (idx >= nums.length) {
+            // Check if current subset is larger than result
             if (temp.size() > result.size()) {
                 result.clear();
                 result.addAll(temp);
@@ -23,32 +25,41 @@ public class lc0368_LargestDivisibleSubset {
             return;
         }
 
-        // Take option
+        // Include current element if divisible by previous or prev is -1
         if (prev == -1 || nums[idx] % prev == 0) {
-            // take
+            // Include current element
             temp.add(nums[idx]);
 
-            //recur
+            // Recur with current element included
             solve(idx + 1, nums, result, temp, nums[idx]);
 
-            //not take
+            // Backtrack: Remove current element from subset
             temp.remove(temp.size() - 1);
         }
+
+        // Recur without including current element
         solve(idx + 1, nums, result, temp, prev);
     }
 
-    // Recursion Approach
-    public List<Integer> largestDivisibleSubset(int[] nums) {
+    // Main function to find the largest divisible subset
+    public List<Integer> largestDivisibleSubsetByRecur(int[] nums) {
+        // Sort the input array
         Arrays.sort(nums);
 
+        // Initialize lists to store result and current subset
         List<Integer> result = new ArrayList<>();
         List<Integer> temp = new ArrayList<>();
+
+        // Initialize previous element variable
         int prev = -1;
 
+        // Call recursive function to find largest divisible subset
         solve(0, nums, result, temp, prev);
 
+        // Return the largest divisible subset
         return result;
     }
+
 
     // Bottom Up
     public List<Integer> largestDivisibleSubsetByBU(int[] nums) {
@@ -92,7 +103,7 @@ public class lc0368_LargestDivisibleSubset {
     public static void main(String[] args) {
         lc0368_LargestDivisibleSubset obj = new lc0368_LargestDivisibleSubset();
         int[] nums = {3, 8, 15, 32, 64};
-        System.out.println(obj.largestDivisibleSubset(nums));
+        System.out.println(obj.largestDivisibleSubsetByRecur(nums));
         System.out.println(obj.largestDivisibleSubsetByBU(nums));
     }
 }
