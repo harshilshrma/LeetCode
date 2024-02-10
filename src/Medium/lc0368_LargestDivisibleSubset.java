@@ -61,27 +61,33 @@ public class lc0368_LargestDivisibleSubset {
     }
 
 
-    // Bottom Up
+    // Bottom-up dynamic programming approach
     public List<Integer> largestDivisibleSubsetByBU(int[] nums) {
+        // Sort the input array
         Arrays.sort(nums);
+
+        // Initialize arrays to store length of largest divisible subset and previous index
         int[] dp = new int[nums.length];
         Arrays.fill(dp, 1);
 
         int[] prevIdx = new int[nums.length];
         Arrays.fill(prevIdx, -1);
 
+        // Initialize variables to track last chosen index and maximum subset length
         int lastChosenIdx = 0;
         int maxL = 1;
 
+        // Iterate through the array to find the largest divisible subset
         for (int i = 1; i < nums.length; i++) {
             for (int j = 0; j < i; j++) {
                 if (nums[i] % nums[j] == 0) {
-                    // took i th element
+                    // Update subset length and previous index if current element forms larger subset
                     if (dp[i] < dp[j] + 1) {
                         dp[i] = dp[j] + 1;
                         prevIdx[i] = j;
                     }
 
+                    // Update maxL and lastChosenIdx if larger subset found
                     if (dp[i] > maxL) {
                         maxL = dp[i];
                         lastChosenIdx = i;
@@ -90,14 +96,17 @@ public class lc0368_LargestDivisibleSubset {
             }
         }
 
+        // Reconstruct the largest divisible subset using prevIdx array
         List<Integer> res = new ArrayList<>();
         while (lastChosenIdx != -1) {
             res.add(nums[lastChosenIdx]);
             lastChosenIdx = prevIdx[lastChosenIdx];
         }
 
+        // Return the reconstructed subset
         return res;
     }
+
 
     // Main function for testing
     public static void main(String[] args) {
