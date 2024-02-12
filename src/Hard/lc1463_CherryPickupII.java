@@ -77,9 +77,45 @@ public class lc1463_CherryPickupII {
         return solve(grid, 0, 0, this.n - 1);
     }
 
-    // bottom up approach
+    // Bottom-up dynamic programming approach to find maximum cherries collected by two robots
     public int cherryPickupByBU(int[][] grid) {
+        int m = grid.length; // Number of rows in the grid
+        int n = grid[0].length; // Number of columns in the grid
 
+        int[][][] t = new int[71][71][71]; // Memoization array to store maximum cherries collected till each cell
+
+        // Initialize the value of t[0][0][n - 1]
+        t[0][0][n - 1] = (n == 1) ? grid[0][0] : grid[0][0] + grid[0][n - 1];
+
+        // Iterate over each row starting from the second row
+        for (int row = 1; row < m; row++) {
+            // Iterate over possible columns for both robots
+            for (int c1 = 0; c1 <= Math.min(n - 1, row); c1++) {
+                for (int c2 = Math.max(n - row - 1, 0); c2 < n; c2++) {
+                    int prevRowMax = 0;
+                    // Calculate maximum cherries collected till the current cell considering previous row
+                    for (int prevCol1 = Math.max(0, c1 - 1); prevCol1 <= Math.min(c1 + 1, n - 1); prevCol1++) {
+                        for (int prevCol2 = Math.max(c2 - 1, 0); prevCol2 <= Math.min(c2 + 1, n - 1); prevCol2++) {
+                            prevRowMax = Math.max(prevRowMax, t[row - 1][prevCol1][prevCol2]);
+                        }
+                    }
+                    // Update t[row][c1][c2] based on previous row's max and cherries collected at current cell
+                    if (c1 == c2) {
+                        t[row][c1][c2] = prevRowMax + grid[row][c1];
+                    } else {
+                        t[row][c1][c2] = prevRowMax + grid[row][c1] + grid[row][c2];
+                    }
+                }
+            }
+        }
+        // Find maximum cherries collected till the last row and return as result
+        int res = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                res = Math.max(res, t[m - 1][i][j]);
+            }
+        }
+        return res;
     }
 
     // Main function for testing
