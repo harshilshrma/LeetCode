@@ -10,7 +10,6 @@ package Medium;
 import java.util.Arrays;
 
 public class lc0647_PalindromicSubstrings {
-
     // Recursive function to check if a substring is a palindrome
     int[][] memo;
 
@@ -92,7 +91,6 @@ public class lc0647_PalindromicSubstrings {
         return count;
     }
 
-
     // Main function for testing
     public static void main(String[] args) {
         lc0647_PalindromicSubstrings obj = new lc0647_PalindromicSubstrings();
@@ -103,3 +101,4 @@ public class lc0647_PalindromicSubstrings {
 
     }
 }
+
