@@ -52,20 +52,20 @@ class best {
 // Solution using HashMap: 23 ms
 class hashmapsol {
     public int majorityElement(int[] nums) {
-        int countValues = 0;
-        int result = nums[0];
+        int n = nums.length;
+        int res;
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
-
-            if (map.get(num) > countValues) {
-                result = num;
-                countValues++;
-            }
-
         }
-        return result;
+
+        for (int num : nums) {
+            if (map.get(num) > n / 2) {
+                return num;
+            }
+        }
+        return 0;
     }
 }
 
