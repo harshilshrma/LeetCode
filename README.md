@@ -16,20 +16,20 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 <br>
 
-# Number of Questions Solved (126)
+# Number of Questions Solved (133)
 
 <!-- 
 
-- ![Easy Questions Solved](https://img.shields.io/badge/Easy-54-green)
-- ![Medium Questions Solved](https://img.shields.io/badge/Medium-59-orange)
+- ![Easy Questions Solved](https://img.shields.io/badge/Easy-57-green)
+- ![Medium Questions Solved](https://img.shields.io/badge/Medium-63-orange)
 - ![Hard Questions Solved](https://img.shields.io/badge/Hard-13-red)
 -->
 
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
-    <img src="https://camo.githubusercontent.com/e995d0a7f9699583e3dcb7c8a091b22080e9851ef818f870225b26a9089c43f3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d35342d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/2e683e065cca7e2e989f86ccc1bd16076d08ad57b977a3527e80882a8d12fa26/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d35372d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://camo.githubusercontent.com/f47bc741f05c7cd26129f83a7e524346ff69ae0d3d3fd221ad4731e152c7dc49/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d35392d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/24bf32d3b29db6d739b9c68c232f34d88bce7c339dea9de1d408aa46c73fe2ba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d36332d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://camo.githubusercontent.com/dd30e2330502be3bc6524f8d9bba618bc79b5080b08644bded325d7697242ffa/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486172642d31332d726564" alt="" height="35px" title="">
   </div>
@@ -43,6 +43,7 @@ This repository is a curated collection showcasing my solutions to challenges ac
   <div style="display: flex; justify-content: center; gap: 20px;">
     <img src="https://assets.leetcode.com/static_assets/marketing/2023-50.gif" alt="leetcode 2023 50 days" height="90px" title="LeetCode 50 Days Badge 2023">
     <img src="https://leetcode.com/static/images/badges/2024/gif/2024-01.gif" alt="leetcode 2024 jan" height="90px" title="LeetCode January Badge 2024">
+    <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" alt="leetcode 2024 50 days" height="90px" title="LeetCode 50 Days Badge 2024">
   </div>
 </div>
 
@@ -73,6 +74,6 @@ I appreciate your interest and I'm excited to support your learning journey! ✨
 
 ---
 
-<em>Last Updated: 13 February 2024 - 03:02 pm IST</em>
+<em>Last Updated: 22 February 2024 - 03:45 pm IST</em>
 
 
