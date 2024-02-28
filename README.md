@@ -16,22 +16,22 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 <br>
 
-# Number of Questions Solved (133)
+# Number of Questions Solved (139)
 
 <!-- 
 
-- ![Easy Questions Solved](https://img.shields.io/badge/Easy-57-green)
-- ![Medium Questions Solved](https://img.shields.io/badge/Medium-63-orange)
-- ![Hard Questions Solved](https://img.shields.io/badge/Hard-13-red)
+- ![Easy Questions Solved](https://img.shields.io/badge/Easy-58-green)
+- ![Medium Questions Solved](https://img.shields.io/badge/Medium-65-orange)
+- ![Hard Questions Solved](https://img.shields.io/badge/Hard-16-red)
 -->
 
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
-    <img src="https://camo.githubusercontent.com/2e683e065cca7e2e989f86ccc1bd16076d08ad57b977a3527e80882a8d12fa26/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d35372d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/beb5e61ed6474944b60d4941d7bbc597d12eca11d9de5d84fd9674ccbe79d0fc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d35382d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://camo.githubusercontent.com/24bf32d3b29db6d739b9c68c232f34d88bce7c339dea9de1d408aa46c73fe2ba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d36332d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/f4de62d40451488dd8c142a25ee375f9284e9a85d3b04ad0acb6169d44cecf84/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d36352d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://camo.githubusercontent.com/dd30e2330502be3bc6524f8d9bba618bc79b5080b08644bded325d7697242ffa/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486172642d31332d726564" alt="" height="35px" title="">
+    <img src="https://camo.githubusercontent.com/39e6c8537b0a163c3e80c8cc2fc73ddaa995d10c761f787ad817756fdff6cf24/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486172642d31362d726564" alt="" height="35px" title="">
   </div>
 </div>
 
@@ -83,6 +83,6 @@ I appreciate your interest and I'm excited to support your learning journey! ✨
 
 ---
 
-<em>Last Updated: 22 February 2024 - 03:45 pm IST</em>
+<em>Last Updated: 28 February 2024 - 05:04 pm IST</em>
 
 
