@@ -8,7 +8,7 @@ Contained within this repository are solutions to various LeetCode questions I'v
 
 This repository is a curated collection showcasing my solutions to challenges across different difficulty levels on the LeetCode platform.
 
-[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>LeetCode Daily Streak: <strong>44 days</strong></em></span>
+[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>LeetCode Daily Streak: <strong>60 days</strong></em></span>
 
 
 
@@ -53,6 +53,7 @@ This repository is a curated collection showcasing my solutions to challenges ac
   <div style="display: flex; justify-content: center; gap: 20px;">
     <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" alt="leetcode 2024 50 days" height="90px" title="LeetCode 50 Days Badge 2024">
     <img src="https://leetcode.com/static/images/badges/2024/gif/2024-01.gif" alt="leetcode 2024 jan" height="90px" title="LeetCode January Badge 2024">
+    <img src="https://assets.leetcode.com/static_assets/public/images/badges/2024/gif/2024-02.gif" alt="leetcode 2024 feb" height="90px" title="LeetCode February Badge 2024">
   </div>
 </div>
 
@@ -83,6 +84,6 @@ I appreciate your interest and I'm excited to support your learning journey! ✨
 
 ---
 
-<em>Last Updated: 28 February 2024 - 05:04 pm IST</em>
+<em>Last Updated: 01 March 2024 - 06:08 pm IST</em>
 
 
