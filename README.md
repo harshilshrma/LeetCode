@@ -8,7 +8,7 @@ Contained within this repository are solutions to various LeetCode questions I'v
 
 This repository is a curated collection showcasing my solutions to challenges across different difficulty levels on the LeetCode platform.
 
-[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>LeetCode Daily Streak: <strong>60 days</strong></em></span>
+[<img src="https://leetcode.com/static/images/coin.gif" height="50px" alt="LeetCode Streak Coin" target="_main">](#) <span style="color:blue"><em>LeetCode Daily Streak: <strong>62 days</strong></em></span>
 
 
 
@@ -16,20 +16,20 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 <br>
 
-# Number of Questions Solved (139)
+# Number of Questions Solved (143)
 
 <!-- 
 
-- ![Easy Questions Solved](https://img.shields.io/badge/Easy-58-green)
-- ![Medium Questions Solved](https://img.shields.io/badge/Medium-65-orange)
+- ![Easy Questions Solved](https://img.shields.io/badge/Easy-60-green)
+- ![Medium Questions Solved](https://img.shields.io/badge/Medium-67-orange)
 - ![Hard Questions Solved](https://img.shields.io/badge/Hard-16-red)
 -->
 
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
-    <img src="https://camo.githubusercontent.com/beb5e61ed6474944b60d4941d7bbc597d12eca11d9de5d84fd9674ccbe79d0fc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d35382d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/495ba1829f32aa284edaef8bfe231792280ef1e60611cd9c0d33dea85bd47f4d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456173792d36302d677265656e" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://camo.githubusercontent.com/f4de62d40451488dd8c142a25ee375f9284e9a85d3b04ad0acb6169d44cecf84/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d36352d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
+    <img src="https://camo.githubusercontent.com/e14f7afab43544e2c82651506fdc30163c9ad009f1c9ad8355bea51a606e8f9d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d656469756d2d36372d6f72616e6765" alt="" height="35px" title="" style="margin-right: 20px;">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://camo.githubusercontent.com/39e6c8537b0a163c3e80c8cc2fc73ddaa995d10c761f787ad817756fdff6cf24/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486172642d31362d726564" alt="" height="35px" title="">
   </div>
@@ -84,6 +84,6 @@ I appreciate your interest and I'm excited to support your learning journey! ✨
 
 ---
 
-<em>Last Updated: 01 March 2024 - 06:08 pm IST</em>
+<em>Last Updated: 02 March 2024 - 03:32 pm IST</em>
 
 
