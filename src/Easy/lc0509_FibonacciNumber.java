@@ -17,7 +17,7 @@ public class lc0509_FibonacciNumber {
 
     public static void main(String[] args) {
         lc0509_FibonacciNumber obj = new lc0509_FibonacciNumber();
-        int n = 5;
+        int n = 10;
         System.out.println(obj.fib(n));
     }
 }
