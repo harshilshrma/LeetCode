@@ -1,3 +1,7 @@
+// Date: 2 March 2024
+// Given an integer array nums sorted in non-decreasing order, return an array of the squares
+// of each number sorted in non-decreasing order.
+
 package Easy;
 
 import java.util.Arrays;
