@@ -6,44 +6,56 @@
 
 package Medium;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class lc0621_TaskScheduler {
     public int leastInterval(char[] tasks, int n) {
+        // Create an array to store the frequency of each task
         int[] map = new int[26];
 
+        // Count the frequency of each task and store it in the array
         for (char c : tasks) {
             map[c - 'A']++;
         }
 
+        // Initialize the time counter
         int time = 0;
+
+        // Create a priority queue to store the frequencies in descending order
         PriorityQueue<Integer> q = new PriorityQueue<>(Comparator.reverseOrder());
 
+        // Add the frequencies of tasks to the priority queue
         for (int i = 0; i < 26; i++) {
             if (map[i] > 0) {
                 q.offer(map[i]);
             }
         }
 
+        // Continue until the priority queue is empty
         while (!q.isEmpty()) {
+            // Create a temporary list to store frequencies that have been processed
             ArrayList<Integer> temp = new ArrayList<>();
 
+            // Process tasks for a time interval of n + 1
             for (int i = 1; i <= n + 1; i++) {
                 if (!q.isEmpty()) {
+                    // Retrieve the frequency of the next task
                     int freq = q.poll();
                     freq--;
+                    // Add the updated frequency to the temporary list
                     temp.add(freq);
                 }
             }
 
+            // Restore processed frequencies back to the priority queue
             for (int i : temp) {
                 if (i > 0) {
                     q.offer(i);
                 }
             }
 
+            // If the priority queue is empty, add the size of the temporary list to the time counter
+            // Otherwise, add n + 1 to the time counter
             if (q.isEmpty()) {
                 time += temp.size();
             } else {
@@ -51,6 +63,7 @@ public class lc0621_TaskScheduler {
             }
         }
 
+        // Return the total time taken
         return time;
     }
 
