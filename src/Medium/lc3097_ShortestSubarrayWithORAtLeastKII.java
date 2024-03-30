@@ -9,7 +9,7 @@
 
 package Medium;
 
-public class lc3095_ShortestSubarrayWithORAtLeastKII {
+public class lc3097_ShortestSubarrayWithORAtLeastKII {
     public int minimumSubarrayLength(int[] nums, int k) {
         // Initialize an array to store the count of each bit position
         int[] cnt = new int[30];
@@ -55,7 +55,7 @@ public class lc3095_ShortestSubarrayWithORAtLeastKII {
 
     // Main function for testing
     public static void main(String[] args) {
-        lc3095_ShortestSubarrayWithORAtLeastKII obj = new lc3095_ShortestSubarrayWithORAtLeastKII();
+        lc3097_ShortestSubarrayWithORAtLeastKII obj = new lc3097_ShortestSubarrayWithORAtLeastKII();
         int[] nums = {1, 2, 3};
         int k = 2;
         System.out.println(obj.minimumSubarrayLength(nums, k));
