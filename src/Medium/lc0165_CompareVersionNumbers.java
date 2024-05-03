@@ -19,37 +19,48 @@ import java.util.StringTokenizer;
 
 public class lc0165_CompareVersionNumbers {
 
+    // Tokenizes the version string by splitting it at '.' and returns the tokens as a list.
     public List<String> getTokens(String version) {
         StringTokenizer tokenizer = new StringTokenizer(version, ".");
         List<String> list = new ArrayList<>();
+        // Iterates through the tokens and adds them to the list.
         while (tokenizer.hasMoreTokens()) {
             list.add(tokenizer.nextToken());
         }
         return list;
     }
 
+    // Compares two version strings and returns:
+    //  1 if version1 > version2
+    // -1 if version1 < version2
+    //  0 if version1 == version2
     public int compareVersion(String version1, String version2) {
-        List<String> v1 = getTokens(version1);
-        List<String> v2 = getTokens(version2);
+        List<String> v1 = getTokens(version1); // Tokens of version1
+        List<String> v2 = getTokens(version2); // Tokens of version2
 
-        int m = v1.size();
-        int n = v2.size();
+        int m = v1.size(); // Number of tokens in version1
+        int n = v2.size(); // Number of tokens in version2
 
         int i = 0;
+        // Compare tokens of version1 and version2 until the end of either list is reached
         while (i < m || i < n) {
+            // Get the integer value of token i in version1, default to 0 if i exceeds the list size
             int a = i < m ? Integer.parseInt(v1.get(i)) : 0;
+            // Get the integer value of token i in version2, default to 0 if i exceeds the list size
             int b = i < n ? Integer.parseInt(v2.get(i)) : 0;
 
+            // Compare the integer values of tokens
             if (a > b) {
-                return 1;
+                return 1; // version1 is greater
             } else if (a < b) {
-                return -1;
+                return -1; // version2 is greater
             } else {
-                i++;
+                i++; // Move to the next token if both tokens are equal
             }
         }
-        return 0;
+        return 0; // Both versions are equal
     }
+
 
     // Main function for testing
     public static void main(String[] args) {
