@@ -13,7 +13,6 @@ import java.util.Arrays;
 
 public class lc0861_ScoreAfterFlippingMatrix {
     // Functions
-
     public static void toggleRows(int[][] grid, int row) {
         for (int col = 0; col < grid[0].length; col++) {
             if (grid[row][col] == 0) grid[row][col] = 1;
@@ -32,9 +31,8 @@ public class lc0861_ScoreAfterFlippingMatrix {
         int sum = 0;
         for (int row = 0; row < grid.length; row++) {
             for (int col = 0; col < grid[0].length; col++) {
-                sum += grid[row][col] * (int) Math.pow(2, grid.length - col - 1);
+                sum += grid[row][col] * (int) Math.pow(2, grid[0].length - col - 1);
             }
-            System.out.println(sum);
         }
 
         return sum;
@@ -44,7 +42,6 @@ public class lc0861_ScoreAfterFlippingMatrix {
     public int matrixScore(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
-        int ans = 0;
 
         System.out.println(Arrays.deepToString(grid));
 
@@ -78,6 +75,7 @@ public class lc0861_ScoreAfterFlippingMatrix {
     public static void main(String[] args) {
         lc0861_ScoreAfterFlippingMatrix obj = new lc0861_ScoreAfterFlippingMatrix();
         int[][] grid = {{0, 0, 1, 1}, {1, 0, 1, 0}, {1, 1, 0, 0}};
+        int[][] grid1 = {{0}};
         System.out.println(obj.matrixScore(grid));
     }
 }
