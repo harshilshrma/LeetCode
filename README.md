@@ -40,20 +40,21 @@ This repository is a curated collection showcasing my solutions to challenges ac
 
 # Badges Earned
 
-## 2023
-<div style="text-align: center;">
-  <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="https://assets.leetcode.com/static_assets/marketing/2023-50.gif" alt="leetcode 2023 50 days" height="90px" title="LeetCode 50 Days Badge 2023">
-  </div>
-</div>
-
 ## 2024
 
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="https://assets.leetcode.com/static_assets/marketing/2024-100-new.gif" alt="leetcode 2024 100 days" height="90px" title="LeetCode 100 Days Badge 2024">
     <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" alt="leetcode 2024 50 days" height="90px" title="LeetCode 50 Days Badge 2024">
     <img src="https://leetcode.com/static/images/badges/2024/gif/2024-01.gif" alt="leetcode 2024 jan" height="90px" title="LeetCode January Badge 2024">
     <img src="https://assets.leetcode.com/static_assets/public/images/badges/2024/gif/2024-02.gif" alt="leetcode 2024 feb" height="90px" title="LeetCode February Badge 2024">
+  </div>
+</div>
+
+## 2023
+<div style="text-align: center;">
+  <div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="https://assets.leetcode.com/static_assets/marketing/2023-50.gif" alt="leetcode 2023 50 days" height="90px" title="LeetCode 50 Days Badge 2023">
   </div>
 </div>
 
