@@ -12,49 +12,50 @@ package Medium;
 
 public class lc0151_ReverseWordsInAString {
     // Functions
-    private void reverse(char[] array, int start, int end) {
-        while (start < end) {
-            char temp = array[start];
-            array[start] = array[end];
-            array[end] = temp;
-            start++;
-            end--;
-        }
-    }
-
     public String reverseWords(String s) {
-        // Convert the string to a mutable character array
-        char[] strArray = s.toCharArray();
+        int left = 0;
+        int right = s.length() - 1;
 
-        // Reverse the whole string
-        reverse(strArray, 0, strArray.length - 1);
+        String temp = "";
+        String ans = "";
 
-        int i = 0;
-        int l = 0, r = 0;
-        int n = strArray.length;
-
-        while (i < n) {
-            // Move r and i forward until we find a space
-            while (i < n && strArray[i] != ' ') {
-                strArray[r++] = strArray[i++];
+        //Iterate the string and keep on adding to form a word
+        //If empty space is encountered then add the current word to the result
+        while (left <= right)
+        {
+            char ch = s.charAt(left);
+            if (ch != ' ')
+            {
+                temp += ch;
             }
-
-            // If we have characters between l and r, reverse the word
-            if (l < r) {
-                reverse(strArray, l, r - 1);
-                // Check if r is within bounds before assigning a space
-                if (r < n) {
-                    strArray[r] = ' ';
-                    r++;
+            else {
+                if (!ans.equals(""))
+                {
+                    ans = temp + " " + ans;
                 }
-                l = r;
+                else
+                {
+                    ans = temp;
+                }
+                temp = "";
             }
-
-            i++;
+            left++;
         }
 
-        // Create the final string without trailing spaces
-        return new String(strArray, 0, r > 0 ? r - 1 : 0);
+        //If not empty string then add to the result(Last word is added)
+        if (!temp.equals(""))
+        {
+            if (!ans.equals(""))
+            {
+                ans = temp + " " + ans;
+            }
+            else
+            {
+                ans = temp;
+            }
+        }
+
+        return ans;
     }
 
 
