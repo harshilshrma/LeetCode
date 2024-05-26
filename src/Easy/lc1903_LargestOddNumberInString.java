@@ -6,6 +6,7 @@ package Easy;
 public class lc1903_LargestOddNumberInString {
     // Functions
 
+    // for a number to be odd, we aim to have its rightmost digit as odd so we start from right, to get max value
     public String largestOddNumber(String num) {
         for (int i = num.length() - 1; i >= 0; i--) {
             if (Character.getNumericValue(num.charAt(i)) % 2 != 0) {
