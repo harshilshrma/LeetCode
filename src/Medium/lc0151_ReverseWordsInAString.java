@@ -13,56 +13,82 @@ package Medium;
 public class lc0151_ReverseWordsInAString {
     // Functions
     public String reverseWords(String s) {
-        int left = 0;
-        int right = s.length() - 1;
+        // Convert the string to a character array
+        char[] chars = s.toCharArray();
 
-        String temp = "";
-        String ans = "";
+        // Step 1: Reverse the entire string
+        reverse(chars, 0, chars.length - 1);
 
-        //Iterate the string and keep on adding to form a word
-        //If empty space is encountered then add the current word to the result
-        while (left <= right)
-        {
-            char ch = s.charAt(left);
-            if (ch != ' ')
-            {
-                temp += ch;
-            }
-            else {
-                if (!ans.equals(""))
-                {
-                    ans = temp + " " + ans;
-                }
-                else
-                {
-                    ans = temp;
-                }
-                temp = "";
-            }
+        // Step 2: Reverse each word in the reversed string
+        reverseEachWord(chars);
+
+        // Step 3: Clean up spaces
+        return cleanSpaces(chars);
+    }
+
+    private void reverse(char[] chars, int left, int right) {
+        while (left < right) {
+            char temp = chars[left];
+            chars[left] = chars[right];
+            chars[right] = temp;
             left++;
+            right--;
+        }
+    }
+
+    private void reverseEachWord(char[] chars) {
+        int n = chars.length;
+        int start = 0, end = 0;
+
+        while (start < n) {
+            // Move the end pointer to the end of the current word
+            while (end < n && chars[end] != ' ') {
+                end++;
+            }
+
+            // Reverse the current word
+            reverse(chars, start, end - 1);
+
+            // Move the start pointer to the next word
+            start = end + 1;
+            end++;
+        }
+    }
+
+    private String cleanSpaces(char[] chars) {
+        int n = chars.length;
+        int i = 0, j = 0;
+
+        while (j < n) {
+            // Skip spaces
+            while (j < n && chars[j] == ' ') {
+                j++;
+            }
+            // Copy non-space characters
+            while (j < n && chars[j] != ' ') {
+                chars[i++] = chars[j++];
+            }
+            // Skip spaces
+            while (j < n && chars[j] == ' ') {
+                j++;
+            }
+            // Add a single space if not at the end
+            if (j < n) {
+                chars[i++] = ' ';
+            }
         }
 
-        //If not empty string then add to the result(Last word is added)
-        if (!temp.equals(""))
-        {
-            if (!ans.equals(""))
-            {
-                ans = temp + " " + ans;
-            }
-            else
-            {
-                ans = temp;
-            }
-        }
-
-        return ans;
+        // Create the final string and trim any extra spaces
+        return new String(chars).substring(0, i);
     }
 
 
     // Main function for testing
     public static void main(String[] args) {
         lc0151_ReverseWordsInAString obj = new lc0151_ReverseWordsInAString();
-        System.out.println(obj.reverseWords(" the sky is blue "));
+        System.out.println(obj.reverseWords(" hello world "));
+        System.out.println(obj.reverseWords("the sky is blue"));
+        System.out.println(obj.reverseWords("a good   example"));
     }
 }
 
