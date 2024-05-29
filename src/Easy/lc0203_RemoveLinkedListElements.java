@@ -1,5 +1,7 @@
 // 29-05-2024 - 01:21 pm
-// 
+// Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val,
+// and return the new head.
+
 
 package Easy;
 
